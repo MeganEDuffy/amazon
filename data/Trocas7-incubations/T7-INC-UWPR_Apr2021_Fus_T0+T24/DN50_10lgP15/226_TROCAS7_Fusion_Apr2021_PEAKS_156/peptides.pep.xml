@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BSI implementation of pepXML output for PEAKS Studio -->
+<msms_pipeline_analysis xmlns="http://regis-web.systemsbiology.net/pepXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://regis-web.systemsbiology.net/pepXML pepXML_v18_peaks_denovo.xsd" date="2021-07-23 15:51" summary_xml="peptide.pep.xml">
+  <msms_run_summary base_name="20210407_Trocas7_665_NMCP226_DDA_120min_1" raw_data_type="" raw_data="">
+    <sample_enzyme name="Trypsin">
+      <specificity sense="C" cut="RK" no_cut="P"/>
+    </sample_enzyme>
+    <search_summary base_name="Instrument_default" search_engine="PEAKS DB" precursor_mass_type="monoisotopic" fragment_mass_type="monoisotopic" out_data_type="" out_data="" search_id="1">
+      <search_database local_path="D:\DataComp D-drive Backed Up to 8TB May 2020\MED-Amazon-samples+db\amazon_metagenome_hi3_validated_20200729181459_gpm-craptome20170920_20170920131122.fasta" type="AA"/>
+      <enzymatic_search_constraint enzyme="Trypsin" max_num_internal_cleavages="3" min_number_termini="2"/>
+      <aminoacid_modification aminoacid="C" massdiff="57.021465" mass="160.03065"  variable="N" description="C(+57.02)"/>
+      <aminoacid_modification aminoacid="N" massdiff="0.984016" mass="115.02695"  variable="Y" description="N(+.98)"/>
+      <aminoacid_modification aminoacid="Q" massdiff="0.984016" mass="129.04259"  variable="Y" description="Q(+.98)"/>
+      <aminoacid_modification aminoacid="M" massdiff="15.994915" mass="147.03542"  variable="Y" description="M(+15.99)"/>
+      <parameter name="instrument" value="Orbitrap (Orbi-Trap)"/>
+      <parameter name="parent_error" value="15.0"/>
+      <parameter name="delta" value="0.5"/>
+      <parameter name="top" value="25"/>
+      <parameter name="enzyme" value="Trypsin"/>
+      <parameter name="missed_cleavage" value="3"/>
+      <parameter name="max_ptm" value="5"/>
+      <parameter name="database" value="Amazon metagenome with Hi3"/>
+      <parameter name="taxons" value="All"/>
+    </search_summary>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="2524" end_scan="2524" precursor_neutral_mass="1345.7186" assumed_charge="3" index="57578">
+      <search_result>
+        <search_hit hit_rank="1" peptide="KDLLMEWRQK" calc_neutral_pep_mass="1345.7177" massdiff="0.7" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.31"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="5512" end_scan="5512" precursor_neutral_mass="796.3721" assumed_charge="2" index="57805">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNID" calc_neutral_pep_mass="796.3715" massdiff="0.7" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.41"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="5596" end_scan="5596" precursor_neutral_mass="796.3719" assumed_charge="2" index="57817">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNID" calc_neutral_pep_mass="796.3715" massdiff="0.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="17.49"/>
+          <search_score name="confidence" value="0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="5677" end_scan="5677" precursor_neutral_mass="796.3721" assumed_charge="2" index="57826">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNID" calc_neutral_pep_mass="796.3715" massdiff="0.7" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="21.58"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="5755" end_scan="5755" precursor_neutral_mass="796.3723" assumed_charge="2" index="57833">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNID" calc_neutral_pep_mass="796.3715" massdiff="1.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="20.31"/>
+          <search_score name="confidence" value="0.73"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="5835" end_scan="5835" precursor_neutral_mass="796.3724" assumed_charge="2" index="57844">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNID" calc_neutral_pep_mass="796.3715" massdiff="1.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="21.64"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="5972" end_scan="5972" precursor_neutral_mass="1062.5024" assumed_charge="2" index="57867">
+      <search_result>
+        <search_hit hit_rank="1" peptide="APVLSDSSCK" calc_neutral_pep_mass="1062.5016" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="APVLSDSSC(+57.02)K">
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="30.77"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="7306" end_scan="7306" precursor_neutral_mass="790.4337" assumed_charge="2" index="58228">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QLFNAAK" calc_neutral_pep_mass="790.4337" massdiff="-0.1" num_tot_proteins="1" protein="GROUPS_14040631_PROKKA_590863" protein_descr="hypothetical protein" protein_mw="8420.602">
+          <search_score name="-10lgP" value="21.41"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="QIFNAAK" calc_neutral_pep_mass="790.4337" massdiff="-0.1" num_tot_proteins="1" protein="GROUPS_11379668_PROKKA_374008" protein_descr="hypothetical protein" protein_mw="26176.625">
+          <search_score name="-10lgP" value="21.41"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="7405" end_scan="7405" precursor_neutral_mass="790.4346" assumed_charge="2" index="58257">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QLFNAAK" calc_neutral_pep_mass="790.4337" massdiff="1.0" num_tot_proteins="1" protein="GROUPS_14040631_PROKKA_590863" protein_descr="hypothetical protein" protein_mw="8420.602">
+          <search_score name="-10lgP" value="20.19"/>
+          <search_score name="confidence" value="0.65"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="QIFNAAK" calc_neutral_pep_mass="790.4337" massdiff="1.0" num_tot_proteins="1" protein="GROUPS_11379668_PROKKA_374008" protein_descr="hypothetical protein" protein_mw="26176.625">
+          <search_score name="-10lgP" value="20.19"/>
+          <search_score name="confidence" value="0.65"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="7505" end_scan="7505" precursor_neutral_mass="790.4340" assumed_charge="2" index="58289">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QFINAAK" calc_neutral_pep_mass="790.4337" massdiff="0.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.04"/>
+          <search_score name="confidence" value="0.61"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="QFLNAAK" calc_neutral_pep_mass="790.4337" massdiff="0.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.04"/>
+          <search_score name="confidence" value="0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="7594" end_scan="7594" precursor_neutral_mass="790.4343" assumed_charge="2" index="58310">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QLFNAAK" calc_neutral_pep_mass="790.4337" massdiff="0.7" num_tot_proteins="1" protein="GROUPS_14040631_PROKKA_590863" protein_descr="hypothetical protein" protein_mw="8420.602">
+          <search_score name="-10lgP" value="19.55"/>
+          <search_score name="confidence" value="0.63"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="QIFNAAK" calc_neutral_pep_mass="790.4337" massdiff="0.7" num_tot_proteins="1" protein="GROUPS_11379668_PROKKA_374008" protein_descr="hypothetical protein" protein_mw="26176.625">
+          <search_score name="-10lgP" value="19.55"/>
+          <search_score name="confidence" value="0.63"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="7694" end_scan="7694" precursor_neutral_mass="790.4345" assumed_charge="2" index="58340">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QFINAAK" calc_neutral_pep_mass="790.4337" massdiff="1.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.52"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="QFLNAAK" calc_neutral_pep_mass="790.4337" massdiff="1.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.52"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="7994" end_scan="7994" precursor_neutral_mass="1044.5574" assumed_charge="2" index="58410">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATLNSR" calc_neutral_pep_mass="1044.5564" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="42.09"/>
+          <search_score name="confidence" value="0.98"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8100" end_scan="8100" precursor_neutral_mass="1044.5577" assumed_charge="2" index="58447">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATLNSR" calc_neutral_pep_mass="1044.5564" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="44.10"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8152" end_scan="8152" precursor_neutral_mass="1024.4668" assumed_charge="2" index="58465">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IVGGYTCAAN" calc_neutral_pep_mass="1024.4647" massdiff="2.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="IVGGYTC(+57.02)AAN">
+            <mod_aminoacid_mass position="7" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="30.99"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8223" end_scan="8223" precursor_neutral_mass="1044.5576" assumed_charge="2" index="58501">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATLNSR" calc_neutral_pep_mass="1044.5564" massdiff="1.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="45.53"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8344" end_scan="8344" precursor_neutral_mass="1044.5566" assumed_charge="2" index="58550">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATLNSR" calc_neutral_pep_mass="1044.5564" massdiff="0.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="46.35"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8475" end_scan="8475" precursor_neutral_mass="1044.5569" assumed_charge="2" index="58612">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATLNSR" calc_neutral_pep_mass="1044.5564" massdiff="0.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="43.19"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8536" end_scan="8536" precursor_neutral_mass="1230.6471" assumed_charge="3" index="58639">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GGYFLAPEHLK" calc_neutral_pep_mass="1230.6396" massdiff="6.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.32"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8688" end_scan="8688" precursor_neutral_mass="889.4665" assumed_charge="2" index="58676">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSGWGKDK" calc_neutral_pep_mass="889.4658" massdiff="0.8" num_tot_proteins="1" protein="KNOT_4440374_PROKKA_301879" protein_descr="hypothetical protein" protein_mw="41176.445">
+          <search_score name="-10lgP" value="18.15"/>
+          <search_score name="confidence" value="0.50"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8789" end_scan="8789" precursor_neutral_mass="889.4666" assumed_charge="2" index="58707">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSGWGKDK" calc_neutral_pep_mass="889.4658" massdiff="0.9" num_tot_proteins="1" protein="KNOT_4440374_PROKKA_301879" protein_descr="hypothetical protein" protein_mw="41176.445">
+          <search_score name="-10lgP" value="20.73"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8831" end_scan="8831" precursor_neutral_mass="919.4771" assumed_charge="2" index="58718">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EQFINAAK" calc_neutral_pep_mass="919.4763" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="22.87"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="EQFLNAAK" calc_neutral_pep_mass="919.4763" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="22.87"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="8929" end_scan="8929" precursor_neutral_mass="919.4769" assumed_charge="2" index="58745">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EQFINAAK" calc_neutral_pep_mass="919.4763" massdiff="0.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="24.44"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="EQFLNAAK" calc_neutral_pep_mass="919.4763" massdiff="0.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="24.44"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="9050" end_scan="9050" precursor_neutral_mass="1038.4119" assumed_charge="2" index="58779">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SCAAAGTECL" calc_neutral_pep_mass="1038.4110" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SC(+57.02)AAAGTEC(+57.02)L">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="35.75"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="9151" end_scan="9151" precursor_neutral_mass="1038.4117" assumed_charge="2" index="58806">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SCAAAGTECL" calc_neutral_pep_mass="1038.4110" massdiff="0.7" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SC(+57.02)AAAGTEC(+57.02)L">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="42.40"/>
+          <search_score name="confidence" value="0.98"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="9281" end_scan="9281" precursor_neutral_mass="1033.5205" assumed_charge="2" index="58845">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NEQFINAAK" calc_neutral_pep_mass="1033.5193" massdiff="1.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="20.58"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="9318" end_scan="9318" precursor_neutral_mass="1090.5414" assumed_charge="2" index="58858">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GNEQFINAAK" calc_neutral_pep_mass="1090.5406" massdiff="0.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="27.10"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="9383" end_scan="9383" precursor_neutral_mass="1072.5524" assumed_charge="2" index="58889">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATARNR" calc_neutral_pep_mass="1072.5625" massdiff="-9.5" num_tot_proteins="1" protein="GROUPS_12647683_PROKKA_470485" protein_descr="hypothetical protein" protein_mw="20561.51">
+          <modification_info modified_peptide="LSSPATARN(+.98)R">
+            <mod_aminoacid_mass position="9" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="24.73"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="9435" end_scan="9435" precursor_neutral_mass="1090.5422" assumed_charge="2" index="58909">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GNEQFINAAK" calc_neutral_pep_mass="1090.5406" massdiff="1.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="40.88"/>
+          <search_score name="confidence" value="0.98"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="9505" end_scan="9505" precursor_neutral_mass="1044.5579" assumed_charge="2" index="58935">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATLNSR" calc_neutral_pep_mass="1044.5564" massdiff="1.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="24.56"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="9548" end_scan="9548" precursor_neutral_mass="1090.5416" assumed_charge="2" index="58955">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GNEQFINAAK" calc_neutral_pep_mass="1090.5406" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="34.43"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="10717" end_scan="10717" precursor_neutral_mass="841.5028" assumed_charge="2" index="59253">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSLPR" calc_neutral_pep_mass="841.5021" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="30.35"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="10810" end_scan="10810" precursor_neutral_mass="841.5031" assumed_charge="2" index="59272">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSLPR" calc_neutral_pep_mass="841.5021" massdiff="1.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="30.80"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="10837" end_scan="10837" precursor_neutral_mass="823.4926" assumed_charge="2" index="59278">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VPRSLPR" calc_neutral_pep_mass="823.5028" massdiff="-12.5" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.73"/>
+          <search_score name="confidence" value="0.30"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="10871" end_scan="10871" precursor_neutral_mass="954.4929" assumed_charge="2" index="59286">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFN" calc_neutral_pep_mass="954.4923" massdiff="0.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="32.23"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="10903" end_scan="10903" precursor_neutral_mass="841.5041" assumed_charge="2" index="59291">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSLPR" calc_neutral_pep_mass="841.5021" massdiff="2.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="31.28"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="10929" end_scan="10929" precursor_neutral_mass="873.4923" assumed_charge="2" index="59300">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SLVNLGGSK" calc_neutral_pep_mass="873.4919" massdiff="0.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="26.72"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="10964" end_scan="10964" precursor_neutral_mass="855.5175" assumed_charge="2" index="59311">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IATVLPSR" calc_neutral_pep_mass="855.5178" massdiff="-0.3" num_tot_proteins="1" protein="KNOT_31944104_PROKKA_838750" protein_descr="hypothetical protein" protein_mw="7681.0493">
+          <search_score name="-10lgP" value="21.20"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="IATVIPSR" calc_neutral_pep_mass="855.5178" massdiff="-0.3" num_tot_proteins="1" protein="GROUPS_2663599_PROKKA_30233" protein_descr="3-deoxy-manno-octulosonate cytidylyltransferase" protein_mw="27685.846">
+          <search_score name="-10lgP" value="21.20"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="10972" end_scan="10972" precursor_neutral_mass="954.4930" assumed_charge="2" index="59314">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFN" calc_neutral_pep_mass="954.4923" massdiff="0.7" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="42.99"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11007" end_scan="11007" precursor_neutral_mass="841.5037" assumed_charge="2" index="59322">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSLPR" calc_neutral_pep_mass="841.5021" massdiff="1.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="31.06"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11037" end_scan="11037" precursor_neutral_mass="823.4929" assumed_charge="2" index="59333">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VPRSLPR" calc_neutral_pep_mass="823.5028" massdiff="-12.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="16.15"/>
+          <search_score name="confidence" value="0.30"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11038" end_scan="11038" precursor_neutral_mass="873.4924" assumed_charge="2" index="59334">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SLVNLGGSK" calc_neutral_pep_mass="873.4919" massdiff="0.5" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="28.54"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11060" end_scan="11060" precursor_neutral_mass="873.4916" assumed_charge="2" index="59337">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SLVNLGGSK" calc_neutral_pep_mass="873.4919" massdiff="-0.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.86"/>
+          <search_score name="confidence" value="0.30"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11063" end_scan="11063" precursor_neutral_mass="855.5178" assumed_charge="2" index="59338">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVSLPR" calc_neutral_pep_mass="855.5178" massdiff="0.0" num_tot_proteins="1" protein="KNOT_5879241_PROKKA_348517" protein_descr="hypothetical protein" protein_mw="4178.0405">
+          <search_score name="-10lgP" value="23.96"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11099" end_scan="11099" precursor_neutral_mass="841.5032" assumed_charge="2" index="59343">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSLPR" calc_neutral_pep_mass="841.5021" massdiff="1.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="31.13"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11154" end_scan="11154" precursor_neutral_mass="855.5190" assumed_charge="2" index="59358">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVSLPR" calc_neutral_pep_mass="855.5178" massdiff="1.5" num_tot_proteins="1" protein="KNOT_5879241_PROKKA_348517" protein_descr="hypothetical protein" protein_mw="4178.0405">
+          <search_score name="-10lgP" value="23.25"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11196" end_scan="11196" precursor_neutral_mass="841.5032" assumed_charge="2" index="59370">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSLPR" calc_neutral_pep_mass="841.5021" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="30.46"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11253" end_scan="11253" precursor_neutral_mass="855.5190" assumed_charge="2" index="59386">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVSLPR" calc_neutral_pep_mass="855.5178" massdiff="1.4" num_tot_proteins="1" protein="KNOT_5879241_PROKKA_348517" protein_descr="hypothetical protein" protein_mw="4178.0405">
+          <search_score name="-10lgP" value="23.68"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11334" end_scan="11334" precursor_neutral_mass="869.5340" assumed_charge="2" index="59410">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="0.6" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="23.22"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11357" end_scan="11357" precursor_neutral_mass="855.5186" assumed_charge="2" index="59418">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVSLPR" calc_neutral_pep_mass="855.5178" massdiff="0.9" num_tot_proteins="1" protein="KNOT_5879241_PROKKA_348517" protein_descr="hypothetical protein" protein_mw="4178.0405">
+          <search_score name="-10lgP" value="22.94"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11441" end_scan="11441" precursor_neutral_mass="869.5347" assumed_charge="2" index="59447">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="1.4" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="23.28"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11468" end_scan="11468" precursor_neutral_mass="855.5188" assumed_charge="2" index="59454">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IATVLPSR" calc_neutral_pep_mass="855.5178" massdiff="1.2" num_tot_proteins="1" protein="KNOT_31944104_PROKKA_838750" protein_descr="hypothetical protein" protein_mw="7681.0493">
+          <search_score name="-10lgP" value="20.54"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="IATVIPSR" calc_neutral_pep_mass="855.5178" massdiff="1.2" num_tot_proteins="1" protein="GROUPS_2663599_PROKKA_30233" protein_descr="3-deoxy-manno-octulosonate cytidylyltransferase" protein_mw="27685.846">
+          <search_score name="-10lgP" value="20.54"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11550" end_scan="11550" precursor_neutral_mass="869.5354" assumed_charge="2" index="59485">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="2.2" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="18.09"/>
+          <search_score name="confidence" value="0.49"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11653" end_scan="11653" precursor_neutral_mass="869.5350" assumed_charge="2" index="59513">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="1.8" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="16.91"/>
+          <search_score name="confidence" value="0.32"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11748" end_scan="11748" precursor_neutral_mass="869.5345" assumed_charge="2" index="59534">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="1.2" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="17.30"/>
+          <search_score name="confidence" value="0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11839" end_scan="11839" precursor_neutral_mass="869.5343" assumed_charge="2" index="59550">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="1.0" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="16.30"/>
+          <search_score name="confidence" value="0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="11850" end_scan="11850" precursor_neutral_mass="1332.6697" assumed_charge="2" index="59553">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LEGNEQFINAAK" calc_neutral_pep_mass="1332.6674" massdiff="1.7" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="38.50"/>
+          <search_score name="confidence" value="0.97"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12020" end_scan="12020" precursor_neutral_mass="869.5341" assumed_charge="2" index="59584">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="0.7" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="15.94"/>
+          <search_score name="confidence" value="0.30"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12031" end_scan="12031" precursor_neutral_mass="897.5291" assumed_charge="2" index="59588">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVVESLPR" calc_neutral_pep_mass="897.5283" massdiff="0.8" num_tot_proteins="1" protein="KNOT_32538509_PROKKA_854302" protein_descr="hypothetical protein" protein_mw="14490.183">
+          <alternative_protein protein="KNOT_32373984_PROKKA_848250" protein_descr="Acetyl-coenzyme A synthetase" protein_mw="16586.838"/>
+          <search_score name="-10lgP" value="20.66"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12058" end_scan="12058" precursor_neutral_mass="1305.5797" assumed_charge="2" index="59593">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SHFCGGSLINSQ" calc_neutral_pep_mass="1305.5771" massdiff="1.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SHFC(+57.02)GGSLINSQ">
+            <mod_aminoacid_mass position="4" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="23.83"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12119" end_scan="12119" precursor_neutral_mass="869.5344" assumed_charge="2" index="59608">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="16.11"/>
+          <search_score name="confidence" value="0.30"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12126" end_scan="12126" precursor_neutral_mass="897.5298" assumed_charge="2" index="59610">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVVESLPR" calc_neutral_pep_mass="897.5283" massdiff="1.7" num_tot_proteins="1" protein="KNOT_32538509_PROKKA_854302" protein_descr="hypothetical protein" protein_mw="14490.183">
+          <alternative_protein protein="KNOT_32373984_PROKKA_848250" protein_descr="Acetyl-coenzyme A synthetase" protein_mw="16586.838"/>
+          <search_score name="-10lgP" value="20.66"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12216" end_scan="12216" precursor_neutral_mass="869.5342" assumed_charge="2" index="59632">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVTVPR" calc_neutral_pep_mass="869.5334" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_9140978_PROKKA_212107" protein_descr="hypothetical protein" protein_mw="11453.273">
+          <search_score name="-10lgP" value="15.60"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12554" end_scan="12554" precursor_neutral_mass="897.5287" assumed_charge="2" index="59731">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVVESLPR" calc_neutral_pep_mass="897.5283" massdiff="0.4" num_tot_proteins="1" protein="KNOT_32538509_PROKKA_854302" protein_descr="hypothetical protein" protein_mw="14490.183">
+          <alternative_protein protein="KNOT_32373984_PROKKA_848250" protein_descr="Acetyl-coenzyme A synthetase" protein_mw="16586.838"/>
+          <search_score name="-10lgP" value="24.50"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12675" end_scan="12675" precursor_neutral_mass="897.5289" assumed_charge="2" index="59768">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVVESLPR" calc_neutral_pep_mass="897.5283" massdiff="0.6" num_tot_proteins="1" protein="KNOT_32538509_PROKKA_854302" protein_descr="hypothetical protein" protein_mw="14490.183">
+          <alternative_protein protein="KNOT_32373984_PROKKA_848250" protein_descr="Acetyl-coenzyme A synthetase" protein_mw="16586.838"/>
+          <search_score name="-10lgP" value="17.87"/>
+          <search_score name="confidence" value="0.39"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12677" end_scan="12677" precursor_neutral_mass="869.5342" assumed_charge="2" index="59769">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VAKHFLR" calc_neutral_pep_mass="869.5235" massdiff="12.3" num_tot_proteins="1" protein="KNOT_13489551_PROKKA_583098" protein_descr="hypothetical protein" protein_mw="7470.7764">
+          <alternative_protein protein="KNOT_22497602_PROKKA_733264" protein_descr="hypothetical protein" protein_mw="38953.52"/>
+          <search_score name="-10lgP" value="20.51"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="12961" end_scan="12961" precursor_neutral_mass="869.5343" assumed_charge="2" index="59850">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VAKHFLR" calc_neutral_pep_mass="869.5235" massdiff="12.4" num_tot_proteins="1" protein="KNOT_13489551_PROKKA_583098" protein_descr="hypothetical protein" protein_mw="7470.7764">
+          <alternative_protein protein="KNOT_22497602_PROKKA_733264" protein_descr="hypothetical protein" protein_mw="38953.52"/>
+          <search_score name="-10lgP" value="18.69"/>
+          <search_score name="confidence" value="0.53"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13056" end_scan="13056" precursor_neutral_mass="1431.7379" assumed_charge="2" index="59873">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VLEGNEQFINAAK" calc_neutral_pep_mass="1431.7357" massdiff="1.5" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="52.77"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13079" end_scan="13079" precursor_neutral_mass="869.5341" assumed_charge="2" index="59881">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VAKHFLR" calc_neutral_pep_mass="869.5235" massdiff="12.2" num_tot_proteins="1" protein="KNOT_13489551_PROKKA_583098" protein_descr="hypothetical protein" protein_mw="7470.7764">
+          <alternative_protein protein="KNOT_22497602_PROKKA_733264" protein_descr="hypothetical protein" protein_mw="38953.52"/>
+          <search_score name="-10lgP" value="35.23"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13128" end_scan="13128" precursor_neutral_mass="1568.7611" assumed_charge="2" index="59891">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTLDN" calc_neutral_pep_mass="1568.7583" massdiff="1.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="33.97"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13229" end_scan="13229" precursor_neutral_mass="1568.7604" assumed_charge="2" index="59921">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTLDN" calc_neutral_pep_mass="1568.7583" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="34.69"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13368" end_scan="13368" precursor_neutral_mass="1683.7867" assumed_charge="2" index="59958">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTLDND" calc_neutral_pep_mass="1683.7853" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="39.33"/>
+          <search_score name="confidence" value="0.97"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13402" end_scan="13402" precursor_neutral_mass="1683.7863" assumed_charge="3" index="59968">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTLDND" calc_neutral_pep_mass="1683.7853" massdiff="0.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="44.94"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13466" end_scan="13466" precursor_neutral_mass="1683.7885" assumed_charge="2" index="59983">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTLDND" calc_neutral_pep_mass="1683.7853" massdiff="1.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="51.69"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13496" end_scan="13496" precursor_neutral_mass="1683.7875" assumed_charge="3" index="59989">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTLDND" calc_neutral_pep_mass="1683.7853" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="40.71"/>
+          <search_score name="confidence" value="0.98"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13800" end_scan="13800" precursor_neutral_mass="1454.7170" assumed_charge="2" index="60053">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTLD" calc_neutral_pep_mass="1454.7153" massdiff="1.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="39.64"/>
+          <search_score name="confidence" value="0.97"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13835" end_scan="13835" precursor_neutral_mass="1565.7336" assumed_charge="2" index="60061">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQ" calc_neutral_pep_mass="1565.7322" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="47.87"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13895" end_scan="13895" precursor_neutral_mass="1454.7172" assumed_charge="2" index="60076">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTLD" calc_neutral_pep_mass="1454.7153" massdiff="1.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="36.45"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13928" end_scan="13928" precursor_neutral_mass="1565.7338" assumed_charge="2" index="60082">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQ" calc_neutral_pep_mass="1565.7322" massdiff="1.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="52.60"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="13984" end_scan="13984" precursor_neutral_mass="1308.6322" assumed_charge="2" index="60097">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGN" calc_neutral_pep_mass="1308.6310" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="40.48"/>
+          <search_score name="confidence" value="0.97"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="14187" end_scan="14187" precursor_neutral_mass="1137.5676" assumed_charge="2" index="60117">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLE" calc_neutral_pep_mass="1137.5665" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="20.28"/>
+          <search_score name="confidence" value="0.73"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="14244" end_scan="14244" precursor_neutral_mass="1437.6754" assumed_charge="2" index="60125">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNE" calc_neutral_pep_mass="1437.6736" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="35.71"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="14282" end_scan="14282" precursor_neutral_mass="1137.5681" assumed_charge="2" index="60136">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLE" calc_neutral_pep_mass="1137.5665" massdiff="1.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.26"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="14628" end_scan="14628" precursor_neutral_mass="1339.6896" assumed_charge="2" index="60173">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IITHPNFNGNTL" calc_neutral_pep_mass="1339.6885" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="38.21"/>
+          <search_score name="confidence" value="0.97"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="14802" end_scan="14802" precursor_neutral_mass="1162.5823" assumed_charge="2" index="60190">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ICLSNQVSIK" calc_neutral_pep_mass="1162.5903" massdiff="-7.0" num_tot_proteins="1" protein="KNOT_30838996_PROKKA_813426" protein_descr="hypothetical protein" protein_mw="10686.304">
+          <modification_info modified_peptide="IC(+57.02)LSN(+.98)Q(+.98)VSIK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="5" mass="115.02695"/>
+            <mod_aminoacid_mass position="6" mass="129.04259"/>
+          </modification_info>
+          <search_score name="-10lgP" value="25.51"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="14888" end_scan="14888" precursor_neutral_mass="1162.5819" assumed_charge="2" index="60202">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ICLSNQVSIK" calc_neutral_pep_mass="1162.5903" massdiff="-7.3" num_tot_proteins="1" protein="KNOT_30838996_PROKKA_813426" protein_descr="hypothetical protein" protein_mw="10686.304">
+          <modification_info modified_peptide="IC(+57.02)LSN(+.98)Q(+.98)VSIK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="5" mass="115.02695"/>
+            <mod_aminoacid_mass position="6" mass="129.04259"/>
+          </modification_info>
+          <search_score name="-10lgP" value="21.46"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="15075" end_scan="15075" precursor_neutral_mass="1546.7645" assumed_charge="2" index="60216">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DVLEGNEQFINAAK" calc_neutral_pep_mass="1546.7627" massdiff="1.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="47.37"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="15424" end_scan="15424" precursor_neutral_mass="1680.7793" assumed_charge="2" index="60248">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TCAANSIPYQVSLNSG" calc_neutral_pep_mass="1680.7777" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="TC(+57.02)AANSIPYQVSLNSG">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="18.59"/>
+          <search_score name="confidence" value="0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="15529" end_scan="15529" precursor_neutral_mass="1449.6934" assumed_charge="2" index="60259">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DTLACLSGGSVNEK" calc_neutral_pep_mass="1449.6769" massdiff="11.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="DTLAC(+57.02)LSGGSVNEK">
+            <mod_aminoacid_mass position="5" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="17.94"/>
+          <search_score name="confidence" value="0.49"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="15816" end_scan="15816" precursor_neutral_mass="1591.7670" assumed_charge="2" index="60293">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GTSGEDRLSGSLGNDK" calc_neutral_pep_mass="1591.7438" massdiff="14.6" num_tot_proteins="1" protein="GROUPS_11595755_PROKKA_402175" protein_descr="Leukotoxin" protein_mw="28197.771">
+          <search_score name="-10lgP" value="22.80"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16215" end_scan="16215" precursor_neutral_mass="1484.6974" assumed_charge="2" index="60334">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IVGGYTCAANSIPY" calc_neutral_pep_mass="1484.6969" massdiff="0.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="IVGGYTC(+57.02)AANSIPY">
+            <mod_aminoacid_mass position="7" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="15.15"/>
+          <search_score name="confidence" value="0.28"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16280" end_scan="16280" precursor_neutral_mass="1881.8375" assumed_charge="2" index="60340">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SCAAAGTECLISGWGNTK" calc_neutral_pep_mass="1881.8350" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SC(+57.02)AAAGTEC(+57.02)LISGWGNTK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="51.11"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16308" end_scan="16308" precursor_neutral_mass="1881.8365" assumed_charge="3" index="60342">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SCAAAGTECLISGWGNTK" calc_neutral_pep_mass="1881.8350" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SC(+57.02)AAAGTEC(+57.02)LISGWGNTK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="59.85"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16338" end_scan="16338" precursor_neutral_mass="1361.6882" assumed_charge="2" index="60346">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GNTLDNDIMLIK" calc_neutral_pep_mass="1361.6860" massdiff="1.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="GNTLDNDIM(+15.99)LIK">
+            <mod_aminoacid_mass position="9" mass="147.03542"/>
+          </modification_info>
+          <search_score name="-10lgP" value="35.67"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16361" end_scan="16361" precursor_neutral_mass="1881.8370" assumed_charge="2" index="60348">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SCAAAGTECLISGWGNTK" calc_neutral_pep_mass="1881.8350" massdiff="1.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SC(+57.02)AAAGTEC(+57.02)LISGWGNTK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="83.66"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16411" end_scan="16411" precursor_neutral_mass="987.5026" assumed_charge="2" index="60354">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HVEQLHPK" calc_neutral_pep_mass="987.5137" massdiff="-11.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="HVEQ(+.98)LHPK">
+            <mod_aminoacid_mass position="4" mass="129.04259"/>
+          </modification_info>
+          <search_score name="-10lgP" value="16.60"/>
+          <search_score name="confidence" value="0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16483" end_scan="16483" precursor_neutral_mass="1909.8698" assumed_charge="2" index="60369">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TSSNATTNYFVYKNNGK" calc_neutral_pep_mass="1909.8694" massdiff="0.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="TSSNATTNYFVYKN(+.98)N(+.98)GK">
+            <mod_aminoacid_mass position="14" mass="115.02695"/>
+            <mod_aminoacid_mass position="15" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="18.25"/>
+          <search_score name="confidence" value="0.50"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16565" end_scan="16565" precursor_neutral_mass="1909.8684" assumed_charge="2" index="60378">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TSSNATTNYFVYKNNGK" calc_neutral_pep_mass="1909.8694" massdiff="-0.5" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="TSSNATTNYFVYKN(+.98)N(+.98)GK">
+            <mod_aminoacid_mass position="14" mass="115.02695"/>
+            <mod_aminoacid_mass position="15" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="18.34"/>
+          <search_score name="confidence" value="0.51"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16816" end_scan="16816" precursor_neutral_mass="1659.8490" assumed_charge="2" index="60425">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IDVLEGNEQFINAAK" calc_neutral_pep_mass="1659.8468" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="35.48"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16847" end_scan="16847" precursor_neutral_mass="1659.8474" assumed_charge="3" index="60428">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IDVLEGNEQFINAAK" calc_neutral_pep_mass="1659.8468" massdiff="0.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="48.72"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16902" end_scan="16902" precursor_neutral_mass="1659.8499" assumed_charge="2" index="60438">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IDVLEGNEQFINAAK" calc_neutral_pep_mass="1659.8468" massdiff="1.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="69.23"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="16939" end_scan="16939" precursor_neutral_mass="1659.8494" assumed_charge="3" index="60448">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IDVLEGNEQFINAAK" calc_neutral_pep_mass="1659.8468" massdiff="1.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="34.66"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17031" end_scan="17031" precursor_neutral_mass="2210.0994" assumed_charge="3" index="60460">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="26.63"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17103" end_scan="17103" precursor_neutral_mass="1712.8033" assumed_charge="2" index="60471">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQF" calc_neutral_pep_mass="1712.8005" massdiff="1.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="47.17"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17117" end_scan="17117" precursor_neutral_mass="2210.0994" assumed_charge="3" index="60475">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="78.74"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17200" end_scan="17200" precursor_neutral_mass="2210.0994" assumed_charge="3" index="60487">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="75.87"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17284" end_scan="17284" precursor_neutral_mass="2210.0986" assumed_charge="3" index="60499">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="66.05"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17365" end_scan="17365" precursor_neutral_mass="2210.1001" assumed_charge="3" index="60508">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="1.5" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="59.66"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17398" end_scan="17398" precursor_neutral_mass="1773.8917" assumed_charge="2" index="60510">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NIDVLEGNEQFINAAK" calc_neutral_pep_mass="1773.8896" massdiff="1.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="32.82"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17438" end_scan="17438" precursor_neutral_mass="1939.9290" assumed_charge="3" index="60515">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFIN" calc_neutral_pep_mass="1939.9275" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="16.47"/>
+          <search_score name="confidence" value="0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17447" end_scan="17447" precursor_neutral_mass="2210.0996" assumed_charge="3" index="60517">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="58.93"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17508" end_scan="17508" precursor_neutral_mass="1939.9297" assumed_charge="2" index="60528">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFIN" calc_neutral_pep_mass="1939.9275" massdiff="1.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="38.22"/>
+          <search_score name="confidence" value="0.97"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17534" end_scan="17534" precursor_neutral_mass="2210.0986" assumed_charge="3" index="60532">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="47.93"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17617" end_scan="17617" precursor_neutral_mass="2210.0972" assumed_charge="3" index="60542">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="0.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="42.22"/>
+          <search_score name="confidence" value="0.98"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17645" end_scan="17645" precursor_neutral_mass="1001.5989" assumed_charge="2" index="60546">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MLLKPLGSK" calc_neutral_pep_mass="1001.5943" massdiff="4.6" num_tot_proteins="1" protein="KNOT_2819608_PROKKA_194463" protein_descr="6-phosphogluconolactonase" protein_mw="23510.342">
+          <modification_info modified_peptide="M(+15.99)LLKPLGSK">
+            <mod_aminoacid_mass position="1" mass="147.03542"/>
+          </modification_info>
+          <search_score name="-10lgP" value="21.89"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17647" end_scan="17647" precursor_neutral_mass="2170.0391" assumed_charge="2" index="60547">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IVGGYTCAANSIPYQVSLNSG" calc_neutral_pep_mass="2170.0364" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="IVGGYTC(+57.02)AANSIPYQVSLNSG">
+            <mod_aminoacid_mass position="7" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="29.63"/>
+          <search_score name="confidence" value="0.90"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17662" end_scan="17662" precursor_neutral_mass="1525.7471" assumed_charge="2" index="60551">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SSGSSYPSLLQCLK" calc_neutral_pep_mass="1525.7446" massdiff="1.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SSGSSYPSLLQC(+57.02)LK">
+            <mod_aminoacid_mass position="12" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="57.13"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17663" end_scan="17663" precursor_neutral_mass="2170.0403" assumed_charge="3" index="60552">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IVGGYTCAANSIPYQVSLNSG" calc_neutral_pep_mass="2170.0364" massdiff="1.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="IVGGYTC(+57.02)AANSIPYQVSLNSG">
+            <mod_aminoacid_mass position="7" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="19.08"/>
+          <search_score name="confidence" value="0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17706" end_scan="17706" precursor_neutral_mass="2210.0986" assumed_charge="3" index="60555">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="24.63"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17744" end_scan="17744" precursor_neutral_mass="1525.7458" assumed_charge="2" index="60561">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SSGSSYPSLLQCLK" calc_neutral_pep_mass="1525.7446" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SSGSSYPSLLQC(+57.02)LK">
+            <mod_aminoacid_mass position="12" mass="160.03065"/>
+          </modification_info>
+          <search_score name="-10lgP" value="58.57"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17784" end_scan="17784" precursor_neutral_mass="797.4991" assumed_charge="2" index="60567">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NRKPRK" calc_neutral_pep_mass="797.4984" massdiff="1.0" num_tot_proteins="1" protein="GROUPS_13618963_PROKKA_547223" protein_descr="hypothetical protein" protein_mw="6225.9434">
+          <alternative_protein protein="KNOT_4236668_PROKKA_289894" protein_descr="Methionine synthase" protein_mw="7494.3633"/>
+          <alternative_protein protein="KNOT_11055054_PROKKA_522282" protein_descr="hypothetical protein" protein_mw="12292.4375"/>
+          <alternative_protein protein="GROUPS_9290825_PROKKA_217446" protein_descr="hypothetical protein" protein_mw="12027.077"/>
+          <alternative_protein protein="GROUPS_10076987_PROKKA_280151" protein_descr="Chemotaxis protein CheY" protein_mw="17244.09"/>
+          <alternative_protein protein="KNOT_7567905_PROKKA_412941" protein_descr="hypothetical protein" protein_mw="23068.904"/>
+          <alternative_protein protein="GROUPS_10057474_PROKKA_277254" protein_descr="hypothetical protein" protein_mw="23316.361"/>
+          <search_score name="-10lgP" value="23.06"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17791" end_scan="17791" precursor_neutral_mass="2210.1008" assumed_charge="3" index="60568">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="1.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="25.23"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17826" end_scan="17826" precursor_neutral_mass="942.5623" assumed_charge="2" index="60573">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VTLSAPLSR" calc_neutral_pep_mass="942.5498" massdiff="13.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.29"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17852" end_scan="17852" precursor_neutral_mass="1622.7987" assumed_charge="2" index="60576">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FNGNTLDNDIMLIK" calc_neutral_pep_mass="1622.7974" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="FNGNTLDNDIM(+15.99)LIK">
+            <mod_aminoacid_mass position="11" mass="147.03542"/>
+          </modification_info>
+          <search_score name="-10lgP" value="32.44"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17877" end_scan="17877" precursor_neutral_mass="2210.0999" assumed_charge="3" index="60582">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2210.0967" massdiff="1.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="32.82"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17915" end_scan="17915" precursor_neutral_mass="1295.6783" assumed_charge="3" index="60589">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="24.61"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17924" end_scan="17924" precursor_neutral_mass="1660.8323" assumed_charge="2" index="60590">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IDVLEGNEQFINAAK" calc_neutral_pep_mass="1660.8308" massdiff="0.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="IDVLEGN(+.98)EQFINAAK">
+            <mod_aminoacid_mass position="7" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="24.16"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17931" end_scan="17931" precursor_neutral_mass="2211.0945" assumed_charge="3" index="60591">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2211.0808" massdiff="6.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="LGEHNIDVLEGN(+.98)EQFINAAK">
+            <mod_aminoacid_mass position="12" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="46.49"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17942" end_scan="17942" precursor_neutral_mass="1622.8007" assumed_charge="2" index="60594">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FNGNTLDNDIMLIK" calc_neutral_pep_mass="1622.7974" massdiff="2.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="FNGNTLDNDIM(+15.99)LIK">
+            <mod_aminoacid_mass position="11" mass="147.03542"/>
+          </modification_info>
+          <search_score name="-10lgP" value="44.54"/>
+          <search_score name="confidence" value="0.99"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17973" end_scan="17973" precursor_neutral_mass="2211.0903" assumed_charge="3" index="60597">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2211.0808" massdiff="4.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="LGEHNIDVLEGN(+.98)EQFINAAK">
+            <mod_aminoacid_mass position="12" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="35.37"/>
+          <search_score name="confidence" value="0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="17998" end_scan="17998" precursor_neutral_mass="1295.6776" assumed_charge="3" index="60599">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.6" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="21.66"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18033" end_scan="18033" precursor_neutral_mass="2211.0962" assumed_charge="3" index="60606">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGEHNIDVLEGNEQFINAAK" calc_neutral_pep_mass="2211.0808" massdiff="6.9" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="LGEHNIDVLEGN(+.98)EQFINAAK">
+            <mod_aminoacid_mass position="12" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="29.59"/>
+          <search_score name="confidence" value="0.90"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18079" end_scan="18079" precursor_neutral_mass="1295.6774" assumed_charge="3" index="60607">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.3" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="19.36"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18157" end_scan="18157" precursor_neutral_mass="1295.6779" assumed_charge="3" index="60614">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="22.86"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18194" end_scan="18194" precursor_neutral_mass="1460.7163" assumed_charge="2" index="60618">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SNGDAAVDLLSALSK" calc_neutral_pep_mass="1460.7358" massdiff="-13.4" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="SN(+.98)GDAAVDLLSALSK">
+            <mod_aminoacid_mass position="2" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="18.05"/>
+          <search_score name="confidence" value="0.49"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18236" end_scan="18236" precursor_neutral_mass="1295.6786" assumed_charge="3" index="60621">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.3" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="15.33"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18320" end_scan="18320" precursor_neutral_mass="1295.6776" assumed_charge="3" index="60633">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.6" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="26.73"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18398" end_scan="18398" precursor_neutral_mass="1295.6776" assumed_charge="3" index="60636">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.6" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="22.59"/>
+          <search_score name="confidence" value="0.76"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18484" end_scan="18484" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60643">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.0" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="20.35"/>
+          <search_score name="confidence" value="0.73"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18564" end_scan="18564" precursor_neutral_mass="1295.6779" assumed_charge="3" index="60650">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="24.78"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18604" end_scan="18604" precursor_neutral_mass="868.5244" assumed_charge="2" index="60655">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LLHALGVF" calc_neutral_pep_mass="868.5170" massdiff="8.5" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="17.19"/>
+          <search_score name="confidence" value="0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18646" end_scan="18646" precursor_neutral_mass="1295.6780" assumed_charge="3" index="60659">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="20.91"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18722" end_scan="18722" precursor_neutral_mass="1295.6786" assumed_charge="3" index="60662">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.3" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="27.23"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18800" end_scan="18800" precursor_neutral_mass="1295.6782" assumed_charge="3" index="60667">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="20.68"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18883" end_scan="18883" precursor_neutral_mass="1295.6782" assumed_charge="3" index="60673">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="21.23"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="18959" end_scan="18959" precursor_neutral_mass="1295.6785" assumed_charge="3" index="60678">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.2" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="17.35"/>
+          <search_score name="confidence" value="0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19035" end_scan="19035" precursor_neutral_mass="1295.6780" assumed_charge="3" index="60681">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="25.73"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19111" end_scan="19111" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60684">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.0" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="26.09"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19190" end_scan="19190" precursor_neutral_mass="1295.6785" assumed_charge="3" index="60690">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.3" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="16.37"/>
+          <search_score name="confidence" value="0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19221" end_scan="19221" precursor_neutral_mass="1145.5555" assumed_charge="2" index="60694">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NAAISGTAVINN" calc_neutral_pep_mass="1145.5564" massdiff="-0.8" num_tot_proteins="1" protein="KNOT_6849659_PROKKA_384526" protein_descr="hypothetical protein" protein_mw="35800.766">
+          <modification_info modified_peptide="NAAISGTAVIN(+.98)N(+.98)">
+            <mod_aminoacid_mass position="11" mass="115.02695"/>
+            <mod_aminoacid_mass position="12" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="26.00"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19271" end_scan="19271" precursor_neutral_mass="1295.6783" assumed_charge="3" index="60698">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="22.23"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19293" end_scan="19293" precursor_neutral_mass="973.6039" assumed_charge="2" index="60701">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NMLLLVKK" calc_neutral_pep_mass="973.5994" massdiff="4.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="NM(+15.99)LLLVKK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="-10lgP" value="15.05"/>
+          <search_score name="confidence" value="0.28"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19302" end_scan="19302" precursor_neutral_mass="1145.5549" assumed_charge="2" index="60703">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NAAISGTAVINN" calc_neutral_pep_mass="1145.5564" massdiff="-1.3" num_tot_proteins="1" protein="KNOT_6849659_PROKKA_384526" protein_descr="hypothetical protein" protein_mw="35800.766">
+          <modification_info modified_peptide="NAAISGTAVIN(+.98)N(+.98)">
+            <mod_aminoacid_mass position="11" mass="115.02695"/>
+            <mod_aminoacid_mass position="12" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="20.47"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19351" end_scan="19351" precursor_neutral_mass="1295.6788" assumed_charge="3" index="60706">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.5" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="22.82"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19427" end_scan="19427" precursor_neutral_mass="1295.6780" assumed_charge="3" index="60709">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="20.05"/>
+          <search_score name="confidence" value="0.64"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19507" end_scan="19507" precursor_neutral_mass="1295.6786" assumed_charge="3" index="60717">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.3" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="19.70"/>
+          <search_score name="confidence" value="0.63"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19582" end_scan="19582" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60720">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.9" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="21.11"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19617" end_scan="19617" precursor_neutral_mass="1017.6299" assumed_charge="2" index="60724">
+      <search_result>
+        <search_hit hit_rank="1" peptide="PSIVLKFSK" calc_neutral_pep_mass="1017.6222" massdiff="7.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.06"/>
+          <search_score name="confidence" value="0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19663" end_scan="19663" precursor_neutral_mass="1295.6779" assumed_charge="3" index="60730">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="22.01"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19742" end_scan="19742" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60738">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.9" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="25.51"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19816" end_scan="19816" precursor_neutral_mass="1295.6786" assumed_charge="3" index="60741">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.3" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="24.18"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19892" end_scan="19892" precursor_neutral_mass="1295.6782" assumed_charge="3" index="60745">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="25.57"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="19995" end_scan="19995" precursor_neutral_mass="1295.6783" assumed_charge="3" index="60755">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="18.44"/>
+          <search_score name="confidence" value="0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20036" end_scan="20036" precursor_neutral_mass="943.5935" assumed_charge="2" index="60757">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NTKKLAAAK" calc_neutral_pep_mass="943.5814" massdiff="12.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="16.02"/>
+          <search_score name="confidence" value="0.30"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20071" end_scan="20071" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60759">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.0" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="20.82"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20125" end_scan="20125" precursor_neutral_mass="825.5300" assumed_charge="2" index="60763">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ILVSAVPK" calc_neutral_pep_mass="825.5323" massdiff="-2.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.44"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20152" end_scan="20152" precursor_neutral_mass="1295.6785" assumed_charge="3" index="60769">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.2" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="22.45"/>
+          <search_score name="confidence" value="0.76"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20207" end_scan="20207" precursor_neutral_mass="825.5300" assumed_charge="2" index="60771">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ILVSAVPK" calc_neutral_pep_mass="825.5323" massdiff="-2.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="18.53"/>
+          <search_score name="confidence" value="0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20228" end_scan="20228" precursor_neutral_mass="1295.6777" assumed_charge="3" index="60773">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.6" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="24.70"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20302" end_scan="20302" precursor_neutral_mass="1295.6786" assumed_charge="3" index="60775">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.3" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="21.61"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20309" end_scan="20309" precursor_neutral_mass="1295.6785" assumed_charge="2" index="60776">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MRNGNPLPIQR" calc_neutral_pep_mass="1295.6768" massdiff="1.3" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <modification_info modified_peptide="MRN(+.98)GNPLPIQR">
+            <mod_aminoacid_mass position="3" mass="115.02695"/>
+          </modification_info>
+          <search_score name="-10lgP" value="15.34"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20385" end_scan="20385" precursor_neutral_mass="1295.6776" assumed_charge="3" index="60787">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.6" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="21.19"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20455" end_scan="20455" precursor_neutral_mass="1132.6819" assumed_charge="2" index="60789">
+      <search_result>
+        <search_hit hit_rank="1" peptide="RLSPIKTYR" calc_neutral_pep_mass="1132.6716" massdiff="9.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.68"/>
+          <search_score name="confidence" value="0.63"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20460" end_scan="20460" precursor_neutral_mass="1295.6786" assumed_charge="3" index="60790">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.3" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="21.41"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20537" end_scan="20537" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60797">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.9" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="23.20"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20613" end_scan="20613" precursor_neutral_mass="1295.6777" assumed_charge="3" index="60802">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.7" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="22.92"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20687" end_scan="20687" precursor_neutral_mass="1295.6785" assumed_charge="3" index="60805">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.2" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="23.82"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20764" end_scan="20764" precursor_neutral_mass="1295.6791" assumed_charge="3" index="60811">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.7" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="16.46"/>
+          <search_score name="confidence" value="0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20840" end_scan="20840" precursor_neutral_mass="1295.6788" assumed_charge="3" index="60815">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.5" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="19.55"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="20941" end_scan="20941" precursor_neutral_mass="1295.6782" assumed_charge="3" index="60824">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="30.10"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21017" end_scan="21017" precursor_neutral_mass="1295.6785" assumed_charge="3" index="60828">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.2" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="25.43"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21181" end_scan="21181" precursor_neutral_mass="1295.6777" assumed_charge="3" index="60841">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.6" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="29.74"/>
+          <search_score name="confidence" value="0.90"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21259" end_scan="21259" precursor_neutral_mass="1295.6782" assumed_charge="3" index="60850">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="21.47"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21295" end_scan="21295" precursor_neutral_mass="1001.6354" assumed_charge="2" index="60852">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IIQFLAVAK" calc_neutral_pep_mass="1001.6273" massdiff="8.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="17.34"/>
+          <search_score name="confidence" value="0.33"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="ILQFLAVAK" calc_neutral_pep_mass="1001.6273" massdiff="8.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="17.34"/>
+          <search_score name="confidence" value="0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21333" end_scan="21333" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60854">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.9" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="20.77"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21409" end_scan="21409" precursor_neutral_mass="1295.6785" assumed_charge="3" index="60859">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.2" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="23.61"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21448" end_scan="21448" precursor_neutral_mass="1001.6352" assumed_charge="2" index="60863">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IIQFLAVAK" calc_neutral_pep_mass="1001.6273" massdiff="7.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.44"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="ILQFLAVAK" calc_neutral_pep_mass="1001.6273" massdiff="7.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.44"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21486" end_scan="21486" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60866">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.9" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="24.61"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21562" end_scan="21562" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60871">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.9" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="23.11"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21640" end_scan="21640" precursor_neutral_mass="1295.6783" assumed_charge="3" index="60878">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="23.80"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21714" end_scan="21714" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60881">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.9" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="22.30"/>
+          <search_score name="confidence" value="0.76"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21787" end_scan="21787" precursor_neutral_mass="998.6245" assumed_charge="2" index="60888">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ITERLLVR" calc_neutral_pep_mass="998.6237" massdiff="0.8" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.82"/>
+          <search_score name="confidence" value="0.30"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21792" end_scan="21792" precursor_neutral_mass="1295.6779" assumed_charge="3" index="60889">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="25.47"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21929" end_scan="21929" precursor_neutral_mass="1295.6781" assumed_charge="3" index="60901">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.0" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="25.66"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="21950" end_scan="21950" precursor_neutral_mass="1133.7145" assumed_charge="2" index="60903">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IKLLVNLGHK" calc_neutral_pep_mass="1133.7284" massdiff="-12.3" num_tot_proteins="1" protein="KNOT_1958649_PROKKA_131662" protein_descr="3&apos;,5&apos;-cyclic adenosine monophosphate phosphodiesterase CpdA" protein_mw="69492.66">
+          <search_score name="-10lgP" value="15.47"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22003" end_scan="22003" precursor_neutral_mass="1295.6787" assumed_charge="3" index="60906">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.4" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="30.31"/>
+          <search_score name="confidence" value="0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22024" end_scan="22024" precursor_neutral_mass="1133.7150" assumed_charge="2" index="60908">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IKLLVNLGHK" calc_neutral_pep_mass="1133.7284" massdiff="-11.9" num_tot_proteins="1" protein="KNOT_1958649_PROKKA_131662" protein_descr="3&apos;,5&apos;-cyclic adenosine monophosphate phosphodiesterase CpdA" protein_mw="69492.66">
+          <search_score name="-10lgP" value="17.28"/>
+          <search_score name="confidence" value="0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22079" end_scan="22079" precursor_neutral_mass="1295.6790" assumed_charge="3" index="60912">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.6" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="29.02"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22089" end_scan="22089" precursor_neutral_mass="927.5988" assumed_charge="2" index="60913">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NRLLALTK" calc_neutral_pep_mass="927.5865" massdiff="13.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.47"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="NRLIALTK" calc_neutral_pep_mass="927.5865" massdiff="13.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="15.47"/>
+          <search_score name="confidence" value="0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22156" end_scan="22156" precursor_neutral_mass="1295.6782" assumed_charge="3" index="60918">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.1" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="23.00"/>
+          <search_score name="confidence" value="0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22179" end_scan="22179" precursor_neutral_mass="1133.7146" assumed_charge="2" index="60921">
+      <search_result>
+        <search_hit hit_rank="1" peptide="IKLLVNLGHK" calc_neutral_pep_mass="1133.7284" massdiff="-12.2" num_tot_proteins="1" protein="KNOT_1958649_PROKKA_131662" protein_descr="3&apos;,5&apos;-cyclic adenosine monophosphate phosphodiesterase CpdA" protein_mw="69492.66">
+          <search_score name="-10lgP" value="20.27"/>
+          <search_score name="confidence" value="0.73"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22236" end_scan="22236" precursor_neutral_mass="1295.6774" assumed_charge="3" index="60927">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.4" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="16.21"/>
+          <search_score name="confidence" value="0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22327" end_scan="22327" precursor_neutral_mass="1295.6791" assumed_charge="3" index="60938">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.7" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="20.93"/>
+          <search_score name="confidence" value="0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22431" end_scan="22431" precursor_neutral_mass="1295.6792" assumed_charge="3" index="60950">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="18.00"/>
+          <search_score name="confidence" value="0.49"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22510" end_scan="22510" precursor_neutral_mass="1295.6780" assumed_charge="3" index="60958">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="26.84"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22590" end_scan="22590" precursor_neutral_mass="1295.6792" assumed_charge="3" index="60963">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.8" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="16.55"/>
+          <search_score name="confidence" value="0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22670" end_scan="22670" precursor_neutral_mass="1295.6791" assumed_charge="3" index="60970">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="1.7" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="19.55"/>
+          <search_score name="confidence" value="0.63"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22743" end_scan="22743" precursor_neutral_mass="1295.6766" assumed_charge="3" index="60972">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="-0.2" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="15.01"/>
+          <search_score name="confidence" value="0.28"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22817" end_scan="22817" precursor_neutral_mass="1295.6769" assumed_charge="3" index="60976">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHQRPTLQTGK" calc_neutral_pep_mass="1295.6769" massdiff="0.0" num_tot_proteins="1" protein="GROUPS_12124742_PROKKA_433805" protein_descr="hypothetical protein" protein_mw="8063.221">
+          <search_score name="-10lgP" value="15.98"/>
+          <search_score name="confidence" value="0.30"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22914" end_scan="22914" precursor_neutral_mass="955.6310" assumed_charge="2" index="61031">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NLRLVITK" calc_neutral_pep_mass="955.6178" massdiff="13.8" num_tot_proteins="1" protein="GROUPS_13258831_PROKKA_533068" protein_descr="Arginine--tRNA ligase" protein_mw="38254.723">
+          <search_score name="-10lgP" value="21.61"/>
+          <search_score name="confidence" value="0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="22933" end_scan="22933" precursor_neutral_mass="1395.8993" assumed_charge="2" index="61040">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ITGIGKQKTIPLK" calc_neutral_pep_mass="1395.8813" massdiff="12.8" num_tot_proteins="1" protein="KNOT_30597767_PROKKA_805719" protein_descr="hypothetical protein" protein_mw="10472.231">
+          <search_score name="-10lgP" value="22.71"/>
+          <search_score name="confidence" value="0.76"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="23003" end_scan="23003" precursor_neutral_mass="1101.7281" assumed_charge="2" index="61080">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LLILVQLYK" calc_neutral_pep_mass="1101.7162" massdiff="10.8" num_tot_proteins="1" protein="GROUPS_8915178_PROKKA_200027" protein_descr="hypothetical protein" protein_mw="12082.035">
+          <search_score name="-10lgP" value="25.93"/>
+          <search_score name="confidence" value="0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="24372" end_scan="24372" precursor_neutral_mass="972.5647" assumed_charge="2" index="61228">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TGVASALRAK" calc_neutral_pep_mass="972.5716" massdiff="-7.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="18.47"/>
+          <search_score name="confidence" value="0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="24395" end_scan="24395" precursor_neutral_mass="902.5258" assumed_charge="2" index="61235">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ALAPVFSAK" calc_neutral_pep_mass="902.5225" massdiff="3.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="18.15"/>
+          <search_score name="confidence" value="0.50"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="24796" end_scan="24796" precursor_neutral_mass="880.5808" assumed_charge="2" index="61274">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AKQIPIVL" calc_neutral_pep_mass="880.5746" massdiff="7.0" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.16"/>
+          <search_score name="confidence" value="0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="24869" end_scan="24869" precursor_neutral_mass="880.5814" assumed_charge="2" index="61275">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AKQIPIVL" calc_neutral_pep_mass="880.5746" massdiff="7.7" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="19.35"/>
+          <search_score name="confidence" value="0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="24942" end_scan="24942" precursor_neutral_mass="880.5818" assumed_charge="2" index="61276">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AKQIPIVL" calc_neutral_pep_mass="880.5746" massdiff="8.2" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="18.58"/>
+          <search_score name="confidence" value="0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="25105" end_scan="25105" precursor_neutral_mass="880.5817" assumed_charge="2" index="61279">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AKQIPIVL" calc_neutral_pep_mass="880.5746" massdiff="8.1" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="16.26"/>
+          <search_score name="confidence" value="0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210407_Trocas7_665_NMCP226_DDA_120min_1.raw" start_scan="25456" end_scan="25456" precursor_neutral_mass="880.5822" assumed_charge="2" index="61286">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AKQIPIVL" calc_neutral_pep_mass="880.5746" massdiff="8.6" num_tot_proteins="1" protein="" protein_descr="" protein_mw="">
+          <search_score name="-10lgP" value="16.91"/>
+          <search_score name="confidence" value="0.32"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+  </msms_run_summary>
+</msms_pipeline_analysis>

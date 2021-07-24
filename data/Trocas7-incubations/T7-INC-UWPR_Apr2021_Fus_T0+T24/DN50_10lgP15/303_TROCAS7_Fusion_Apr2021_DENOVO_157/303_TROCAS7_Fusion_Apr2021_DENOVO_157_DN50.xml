@@ -1,0 +1,2478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BSI implementation of pepXML output for PEAKS Studio -->
+<msms_pipeline_analysis xmlns="http://regis-web.systemsbiology.net/pepXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://regis-web.systemsbiology.net/pepXML pepXML_v18_peaks_denovo.xsd" date="2021-07-23 15:55" summary_xml="de novo peptides.xml">
+  <msms_run_summary base_name="20210411_Trocas7_666_Bay303_DDA_120min_1" raw_data_type="" raw_data="">
+    <sample_enzyme name="Trypsin">
+      <specificity sense="C" cut="RK" no_cut="P"/>
+    </sample_enzyme>
+    <search_summary base_name="___default" search_engine="PEAKS_DENOVO" precursor_mass_type="monoisotopic" fragment_mass_type="monoisotopic" out_data_type="" out_data="" search_id="1">
+      <enzymatic_search_constraint enzyme="Trypsin" max_num_internal_cleavages="0" min_number_termini="2"/>
+      <aminoacid_modification aminoacid="C" massdiff="57.021465" mass="160.03065"  variable="N" description="C(+57.02)"/>
+      <aminoacid_modification aminoacid="N" massdiff="0.984016" mass="115.02695"  variable="Y" description="N(+.98)"/>
+      <aminoacid_modification aminoacid="Q" massdiff="0.984016" mass="129.04259"  variable="Y" description="Q(+.98)"/>
+      <aminoacid_modification aminoacid="M" massdiff="15.994915" mass="147.03542"  variable="Y" description="M(+15.99)"/>
+      <parameter name="instrument" value="Orbitrap (Orbi-Trap)"/>
+      <parameter name="parent_error" value="15.0"/>
+      <parameter name="delta" value="0.5"/>
+      <parameter name="top" value="5"/>
+      <parameter name="enzyme" value="Trypsin"/>
+      <parameter name="max_ptm" value="5"/>
+    </search_summary>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8246" end_scan="8246" precursor_neutral_mass="1044.5603" assumed_charge="2" index="62969">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATLNSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1044.5564" massdiff="3.7">
+          <search_score name="PeaksDenovoScore" value="0.98241556"/>
+          <search_score name="positional_conf" value="0.99,0.99,0.99,0.99,0.99,0.99,0.97,0.95,0.97,0.96"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="5051" end_scan="5051" precursor_neutral_mass="908.4474" assumed_charge="2" index="62093">
+      <search_result>
+        <search_hit hit_rank="1" peptide="REKMSSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="908.4498" massdiff="-2.6">
+          <modification_info modified_peptide="REKM(+15.99)SSR">
+            <mod_aminoacid_mass position="4" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.9807121"/>
+          <search_score name="positional_conf" value="0.94,0.99,0.98,0.98,0.98,0.98,0.98"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11634" end_scan="11634" precursor_neutral_mass="1073.5155" assumed_charge="2" index="63922">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QFSSSYLSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1073.5142" massdiff="1.2">
+          <search_score name="PeaksDenovoScore" value="0.9788701"/>
+          <search_score name="positional_conf" value="0.90,0.98,0.99,0.99,0.99,0.99,0.99,0.98,0.96"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11642" end_scan="11642" precursor_neutral_mass="869.5361" assumed_charge="2" index="63926">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="869.5334" massdiff="3.0">
+          <search_score name="PeaksDenovoScore" value="0.97322"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.99,0.99,0.96,0.97,0.99,0.87"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11043" end_scan="11043" precursor_neutral_mass="873.4925" assumed_charge="2" index="63795">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SLVNLNSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="873.4919" massdiff="0.6">
+          <search_score name="PeaksDenovoScore" value="0.95293707"/>
+          <search_score name="positional_conf" value="0.96,0.98,0.99,0.97,0.98,0.75,0.97,0.98"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="6008" end_scan="6008" precursor_neutral_mass="1062.5029" assumed_charge="2" index="62324">
+      <search_result>
+        <search_hit hit_rank="1" peptide="APVLSDSSCK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1062.5015" massdiff="1.4">
+          <modification_info modified_peptide="APVLSDSSC(+57.02)K">
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.94866323"/>
+          <search_score name="positional_conf" value="0.97,0.98,0.99,0.99,0.98,0.98,0.96,0.97,0.96,0.64"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11094" end_scan="11094" precursor_neutral_mass="841.5043" assumed_charge="2" index="63805">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSPLR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="841.5021" massdiff="2.6">
+          <search_score name="PeaksDenovoScore" value="0.947456"/>
+          <search_score name="positional_conf" value="0.99,0.99,0.99,0.99,0.98,0.93,0.97,0.68"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11735" end_scan="11735" precursor_neutral_mass="869.5349" assumed_charge="2" index="63945">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="869.5334" massdiff="1.6">
+          <search_score name="PeaksDenovoScore" value="0.9473385"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.99,0.99,0.96,0.97,0.97,0.67"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="25126" end_scan="25126" precursor_neutral_mass="926.4847" assumed_charge="2" index="67958">
+      <search_result>
+        <search_hit hit_rank="1" peptide="YLYELAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="926.4861" massdiff="-1.5">
+          <search_score name="PeaksDenovoScore" value="0.9472434"/>
+          <search_score name="positional_conf" value="0.97,0.99,0.98,0.97,0.91,0.89,0.88"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="5511" end_scan="5511" precursor_neutral_mass="1234.5242" assumed_charge="2" index="62199">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FSSSSGYESER" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1234.5103" massdiff="11.3">
+          <search_score name="PeaksDenovoScore" value="0.9470125"/>
+          <search_score name="positional_conf" value="0.95,0.98,0.99,0.99,0.99,0.97,0.97,0.90,0.85,0.93,0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11544" end_scan="11544" precursor_neutral_mass="869.5349" assumed_charge="2" index="63900">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="869.5334" massdiff="1.7">
+          <search_score name="PeaksDenovoScore" value="0.9467089"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.99,0.99,0.97,0.98,0.97,0.66"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="10909" end_scan="10909" precursor_neutral_mass="841.5040" assumed_charge="2" index="63764">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSPLR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="841.5021" massdiff="2.2">
+          <search_score name="PeaksDenovoScore" value="0.94635093"/>
+          <search_score name="positional_conf" value="0.99,0.99,0.99,0.99,0.98,0.93,0.97,0.67"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11320" end_scan="11320" precursor_neutral_mass="855.5199" assumed_charge="2" index="63852">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVLSPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="855.5178" massdiff="2.5">
+          <search_score name="PeaksDenovoScore" value="0.9432593"/>
+          <search_score name="positional_conf" value="0.99,0.99,0.99,0.99,0.97,0.96,0.97,0.64"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11001" end_scan="11001" precursor_neutral_mass="841.5045" assumed_charge="2" index="63786">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSPLR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="841.5021" massdiff="2.8">
+          <search_score name="PeaksDenovoScore" value="0.94322056"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.99,0.99,0.98,0.93,0.97,0.66"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11230" end_scan="11230" precursor_neutral_mass="855.5193" assumed_charge="2" index="63837">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVLSPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="855.5178" massdiff="1.8">
+          <search_score name="PeaksDenovoScore" value="0.9404325"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.99,0.99,0.97,0.96,0.97,0.63"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11907" end_scan="11907" precursor_neutral_mass="869.4982" assumed_charge="2" index="63967">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VAEVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="869.4970" massdiff="1.4">
+          <search_score name="PeaksDenovoScore" value="0.9389629"/>
+          <search_score name="positional_conf" value="0.97,0.99,0.99,0.98,0.97,0.98,0.96,0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11187" end_scan="11187" precursor_neutral_mass="841.5034" assumed_charge="2" index="63826">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSPLR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="841.5021" massdiff="1.4">
+          <search_score name="PeaksDenovoScore" value="0.9370408"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.99,0.99,0.98,0.92,0.97,0.64"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="3718" end_scan="3718" precursor_neutral_mass="757.4563" assumed_charge="2" index="61788">
+      <search_result>
+        <search_hit hit_rank="1" peptide="RSLQVR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="757.4559" massdiff="0.5">
+          <search_score name="PeaksDenovoScore" value="0.93307114"/>
+          <search_score name="positional_conf" value="0.92,0.93,0.99,0.96,0.97,0.79"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="9077" end_scan="9077" precursor_neutral_mass="1072.5530" assumed_charge="2" index="63289">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LNSPATLNSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1072.5513" massdiff="1.6">
+          <modification_info modified_peptide="LN(+.98)SPATLNSR">
+            <mod_aminoacid_mass position="2" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.9316227"/>
+          <search_score name="positional_conf" value="0.96,0.95,0.96,0.98,0.98,0.97,0.96,0.93,0.81,0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8149" end_scan="8149" precursor_neutral_mass="1044.5576" assumed_charge="2" index="62944">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSSPATLNSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1044.5564" massdiff="1.1">
+          <search_score name="PeaksDenovoScore" value="0.93131626"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.99,0.98,0.98,0.98,0.88,0.83,0.81,0.83"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11133" end_scan="11133" precursor_neutral_mass="855.5181" assumed_charge="2" index="63812">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVLSPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="855.5178" massdiff="0.3">
+          <search_score name="PeaksDenovoScore" value="0.92540723"/>
+          <search_score name="positional_conf" value="0.98,0.98,0.99,0.99,0.88,0.80,0.93,0.80"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11072" end_scan="11072" precursor_neutral_mass="831.4834" assumed_charge="2" index="63801">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SLSLSVAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="831.4814" massdiff="2.4">
+          <search_score name="PeaksDenovoScore" value="0.9251743"/>
+          <search_score name="positional_conf" value="0.71,0.85,0.99,0.99,0.97,0.92,0.96,0.96"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16574" end_scan="16574" precursor_neutral_mass="1295.6790" assumed_charge="3" index="64666">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.9">
+          <search_score name="PeaksDenovoScore" value="0.9241514"/>
+          <search_score name="positional_conf" value="0.93,0.99,0.99,0.98,0.98,0.98,0.98,0.96,0.90,0.48"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18472" end_scan="18472" precursor_neutral_mass="1525.7463" assumed_charge="2" index="65539">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SSGSSYPSLLQCLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1525.7446" massdiff="1.1">
+          <modification_info modified_peptide="SSGSSYPSLLQC(+57.02)LK">
+            <mod_aminoacid_mass position="12" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.9200992"/>
+          <search_score name="positional_conf" value="0.84,0.86,0.97,0.99,0.99,0.99,0.97,0.96,0.97,0.92,0.84,0.81,0.88,0.79"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11453" end_scan="11453" precursor_neutral_mass="869.5342" assumed_charge="2" index="63880">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="869.5334" massdiff="0.9">
+          <search_score name="PeaksDenovoScore" value="0.9197525"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.98,0.95,0.89,0.93,0.97,0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="6746" end_scan="6746" precursor_neutral_mass="1231.5923" assumed_charge="2" index="62550">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SGGGGGGGLGSNSLR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1231.5906" massdiff="1.4">
+          <search_score name="PeaksDenovoScore" value="0.9181217"/>
+          <search_score name="positional_conf" value="0.92,0.83,0.98,0.97,0.98,0.98,0.99,0.99,0.99,0.97,0.98,0.91,0.67,0.77,0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="10817" end_scan="10817" precursor_neutral_mass="841.5034" assumed_charge="2" index="63744">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSPLR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="841.5021" massdiff="1.4">
+          <search_score name="PeaksDenovoScore" value="0.91626763"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.99,0.98,0.96,0.81,0.93,0.63"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16351" end_scan="16351" precursor_neutral_mass="1881.8380" assumed_charge="2" index="64564">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SCAAAGTECLLSGWGNTK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1881.8350" massdiff="1.6">
+          <modification_info modified_peptide="SC(+57.02)AAAGTEC(+57.02)LLSGWGNTK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.9143073"/>
+          <search_score name="positional_conf" value="0.37,0.38,0.96,0.99,0.99,0.99,0.99,0.99,0.99,0.99,0.99,0.99,0.97,0.99,0.96,0.98,0.90,0.90"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="4591" end_scan="4591" precursor_neutral_mass="931.4738" assumed_charge="2" index="62013">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SSPATLNDK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="931.4611" massdiff="13.7">
+          <search_score name="PeaksDenovoScore" value="0.9090056"/>
+          <search_score name="positional_conf" value="0.95,0.95,0.98,0.98,0.97,0.90,0.70,0.84,0.85"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15562" end_scan="15562" precursor_neutral_mass="1295.6787" assumed_charge="3" index="64368">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.7">
+          <search_score name="PeaksDenovoScore" value="0.90754443"/>
+          <search_score name="positional_conf" value="0.90,0.97,0.98,0.98,0.99,0.99,0.93,0.89,0.89,0.50"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11997" end_scan="11997" precursor_neutral_mass="869.4982" assumed_charge="2" index="63982">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VAEVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="869.4970" massdiff="1.4">
+          <search_score name="PeaksDenovoScore" value="0.9057628"/>
+          <search_score name="positional_conf" value="0.97,0.99,0.99,0.98,0.86,0.90,0.92,0.58"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11408" end_scan="11408" precursor_neutral_mass="855.5191" assumed_charge="2" index="63868">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVLSPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="855.5178" massdiff="1.5">
+          <search_score name="PeaksDenovoScore" value="0.900154"/>
+          <search_score name="positional_conf" value="0.98,0.98,0.99,0.99,0.92,0.79,0.92,0.57"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14369" end_scan="14369" precursor_neutral_mass="1008.5248" assumed_charge="2" index="64200">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MVDLAWFK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1008.5103" massdiff="14.4">
+          <search_score name="PeaksDenovoScore" value="0.9001333"/>
+          <search_score name="positional_conf" value="0.97,0.99,0.90,0.91,0.94,0.79,0.91,0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="9403" end_scan="9403" precursor_neutral_mass="989.4927" assumed_charge="2" index="63373">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TLEELEEK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="989.4916" massdiff="1.1">
+          <search_score name="PeaksDenovoScore" value="0.89234823"/>
+          <search_score name="positional_conf" value="0.93,0.95,0.98,0.92,0.76,0.87,0.93,0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12059" end_scan="12059" precursor_neutral_mass="897.5295" assumed_charge="2" index="63995">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVDLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="897.5283" massdiff="1.3">
+          <search_score name="PeaksDenovoScore" value="0.89190793"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.96,0.95,0.74,0.79,0.82,0.85"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="9177" end_scan="9177" precursor_neutral_mass="1072.5526" assumed_charge="2" index="63314">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSNPATLNSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1072.5513" massdiff="1.2">
+          <modification_info modified_peptide="LSN(+.98)PATLNSR">
+            <mod_aminoacid_mass position="3" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.8880367"/>
+          <search_score name="positional_conf" value="0.95,0.90,0.92,0.97,0.98,0.96,0.90,0.78,0.73,0.73"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15653" end_scan="15653" precursor_neutral_mass="1295.6785" assumed_charge="3" index="64387">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.5">
+          <search_score name="PeaksDenovoScore" value="0.8837307"/>
+          <search_score name="positional_conf" value="0.92,0.99,0.98,0.98,0.99,0.99,0.98,0.96,0.75,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12005" end_scan="12005" precursor_neutral_mass="869.5345" assumed_charge="2" index="63984">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VVTVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="869.5334" massdiff="1.2">
+          <search_score name="PeaksDenovoScore" value="0.8699119"/>
+          <search_score name="positional_conf" value="0.97,0.98,0.97,0.96,0.80,0.85,0.88,0.48"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16223" end_scan="16223" precursor_neutral_mass="1295.6786" assumed_charge="3" index="64513">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.6">
+          <search_score name="PeaksDenovoScore" value="0.8692152"/>
+          <search_score name="positional_conf" value="0.91,0.98,0.99,0.98,0.98,0.98,0.94,0.90,0.75,0.22"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="3168" end_scan="3168" precursor_neutral_mass="810.3700" assumed_charge="2" index="61759">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GYGCRAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="810.3806" massdiff="-13.1">
+          <modification_info modified_peptide="GYGC(+57.02)RAK">
+            <mod_aminoacid_mass position="4" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.8667847"/>
+          <search_score name="positional_conf" value="0.58,0.83,0.95,0.95,0.91,0.86,0.94"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20788" end_scan="20788" precursor_neutral_mass="1295.6788" assumed_charge="3" index="66451">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.8">
+          <search_score name="PeaksDenovoScore" value="0.8638692"/>
+          <search_score name="positional_conf" value="0.92,0.98,0.99,0.98,0.98,0.98,0.94,0.89,0.72,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16540" end_scan="16540" precursor_neutral_mass="1909.8702" assumed_charge="2" index="64656">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DCNAGTECLLSGWKATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1909.8662" massdiff="2.1">
+          <modification_info modified_peptide="DC(+57.02)NAGTEC(+57.02)LLSGWKATK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="8" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.8618049"/>
+          <search_score name="positional_conf" value="0.38,0.38,0.63,0.99,0.99,0.99,0.99,0.99,0.99,0.99,0.98,0.97,0.96,0.98,0.99,0.94,0.36"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="5115" end_scan="5115" precursor_neutral_mass="1082.4567" assumed_charge="2" index="62107">
+      <search_result>
+        <search_hit hit_rank="1" peptide="STMEELDNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1082.4438" massdiff="11.8">
+          <modification_info modified_peptide="STM(+15.99)EELDN(+.98)K">
+            <mod_aminoacid_mass position="3" mass="147.03542"/>
+            <mod_aminoacid_mass position="8" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.8601954"/>
+          <search_score name="positional_conf" value="0.74,0.79,0.96,0.99,0.98,0.95,0.90,0.74,0.64"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15841" end_scan="15841" precursor_neutral_mass="1295.6786" assumed_charge="3" index="64433">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.6">
+          <search_score name="PeaksDenovoScore" value="0.8598822"/>
+          <search_score name="positional_conf" value="0.91,0.97,0.98,0.98,0.99,0.99,0.93,0.88,0.68,0.22"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16124" end_scan="16124" precursor_neutral_mass="1295.6788" assumed_charge="3" index="64485">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.8">
+          <search_score name="PeaksDenovoScore" value="0.8589288"/>
+          <search_score name="positional_conf" value="0.90,0.97,0.98,0.98,0.97,0.98,0.93,0.89,0.72,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="25149" end_scan="25149" precursor_neutral_mass="959.5563" assumed_charge="2" index="67964">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FQNALLVR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="959.5552" massdiff="1.1">
+          <search_score name="PeaksDenovoScore" value="0.8565268"/>
+          <search_score name="positional_conf" value="0.53,0.56,0.91,0.96,0.97,0.96,0.97,0.95"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15130" end_scan="15130" precursor_neutral_mass="1295.6788" assumed_charge="3" index="64294">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.8">
+          <search_score name="PeaksDenovoScore" value="0.855838"/>
+          <search_score name="positional_conf" value="0.82,0.95,0.95,0.93,0.97,0.98,0.86,0.79,0.80,0.43"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15950" end_scan="15950" precursor_neutral_mass="1295.6787" assumed_charge="3" index="64455">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.7">
+          <search_score name="PeaksDenovoScore" value="0.8526322"/>
+          <search_score name="positional_conf" value="0.91,0.96,0.96,0.95,0.96,0.97,0.89,0.90,0.73,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18508" end_scan="18508" precursor_neutral_mass="1553.7804" assumed_charge="2" index="65548">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DSGSSYPSLLKCLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1553.7759" massdiff="2.9">
+          <modification_info modified_peptide="DSGSSYPSLLKC(+57.02)LK">
+            <mod_aminoacid_mass position="12" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.8517338"/>
+          <search_score name="positional_conf" value="0.94,0.93,0.75,0.92,0.99,0.99,0.95,0.90,0.94,0.99,0.90,0.62,0.57,0.42"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16324" end_scan="16324" precursor_neutral_mass="972.5196" assumed_charge="2" index="64552">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MDHSKVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="972.5062" massdiff="13.7">
+          <modification_info modified_peptide="M(+15.99)DHSKVLK">
+            <mod_aminoacid_mass position="1" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.8491199"/>
+          <search_score name="positional_conf" value="0.95,0.97,0.98,0.96,0.85,0.77,0.80,0.46"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16949" end_scan="16949" precursor_neutral_mass="2061.8652" assumed_charge="2" index="64841">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CMYAAGTECLLSGWGNTR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2061.8706" massdiff="-2.6">
+          <modification_info modified_peptide="C(+57.02)M(+15.99)YAAGTEC(+57.02)LLSGWGNTR">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.84849846"/>
+          <search_score name="positional_conf" value="0.65,0.45,0.46,0.95,0.99,0.96,0.98,0.99,0.97,0.98,0.99,0.99,0.96,0.96,0.78,0.75,0.75,0.57"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17420" end_scan="17420" precursor_neutral_mass="1937.8656" assumed_charge="2" index="65076">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CDNAGTECLLNGWKATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1937.8611" massdiff="2.3">
+          <modification_info modified_peptide="C(+57.02)DNAGTEC(+57.02)LLN(+.98)GWKATK">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="8" mass="160.03065"/>
+            <mod_aminoacid_mass position="11" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.8452525"/>
+          <search_score name="positional_conf" value="0.33,0.36,0.62,0.99,0.99,0.98,0.99,0.98,0.98,0.99,0.98,0.95,0.96,0.98,0.99,0.90,0.32"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16448" end_scan="16448" precursor_neutral_mass="1295.6791" assumed_charge="3" index="64606">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="15.0">
+          <search_score name="PeaksDenovoScore" value="0.84444886"/>
+          <search_score name="positional_conf" value="0.89,0.97,0.96,0.95,0.97,0.97,0.90,0.87,0.68,0.20"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18374" end_scan="18374" precursor_neutral_mass="1525.7469" assumed_charge="2" index="65511">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QNYYPSLLQTSGR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1525.7524" massdiff="-3.6">
+          <search_score name="PeaksDenovoScore" value="0.84239745"/>
+          <search_score name="positional_conf" value="0.68,0.43,0.46,0.96,0.95,0.95,0.95,0.86,0.81,0.96,0.97,0.96,0.90"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16954" end_scan="16954" precursor_neutral_mass="1295.6790" assumed_charge="3" index="64844">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.9">
+          <search_score name="PeaksDenovoScore" value="0.84217423"/>
+          <search_score name="positional_conf" value="0.92,0.97,0.99,0.98,0.97,0.98,0.89,0.82,0.61,0.23"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19051" end_scan="19051" precursor_neutral_mass="1295.6783" assumed_charge="3" index="65742">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.4">
+          <search_score name="PeaksDenovoScore" value="0.8412517"/>
+          <search_score name="positional_conf" value="0.80,0.94,0.98,0.98,0.97,0.98,0.92,0.88,0.70,0.20"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14602" end_scan="14602" precursor_neutral_mass="1163.5841" assumed_charge="2" index="64226">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HHLSDSVQNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1163.5684" massdiff="13.5">
+          <search_score name="PeaksDenovoScore" value="0.8372184"/>
+          <search_score name="positional_conf" value="0.77,0.77,0.95,0.96,0.93,0.90,0.89,0.80,0.64,0.70"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19917" end_scan="19917" precursor_neutral_mass="1295.6788" assumed_charge="3" index="66062">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.8">
+          <search_score name="PeaksDenovoScore" value="0.83285856"/>
+          <search_score name="positional_conf" value="0.72,0.92,0.98,0.98,0.97,0.98,0.93,0.88,0.71,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14736" end_scan="14736" precursor_neutral_mass="1295.6790" assumed_charge="3" index="64243">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.9">
+          <search_score name="PeaksDenovoScore" value="0.8310791"/>
+          <search_score name="positional_conf" value="0.67,0.90,0.93,0.92,0.97,0.98,0.85,0.78,0.79,0.43"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19817" end_scan="19817" precursor_neutral_mass="1295.6788" assumed_charge="3" index="66035">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.8">
+          <search_score name="PeaksDenovoScore" value="0.8287371"/>
+          <search_score name="positional_conf" value="0.70,0.91,0.97,0.97,0.99,0.99,0.92,0.88,0.68,0.20"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16039" end_scan="16039" precursor_neutral_mass="1295.6791" assumed_charge="3" index="64472">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="15.0">
+          <search_score name="PeaksDenovoScore" value="0.8257376"/>
+          <search_score name="positional_conf" value="0.65,0.90,0.97,0.97,0.97,0.98,0.92,0.93,0.70,0.20"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18002" end_scan="18002" precursor_neutral_mass="1295.6777" assumed_charge="3" index="65338">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.0">
+          <search_score name="PeaksDenovoScore" value="0.8252856"/>
+          <search_score name="positional_conf" value="0.71,0.91,0.95,0.94,0.97,0.98,0.92,0.93,0.68,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13562" end_scan="13562" precursor_neutral_mass="1565.7360" assumed_charge="2" index="64136">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QFNGELVNLCMLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1565.7581" massdiff="-14.1">
+          <modification_info modified_peptide="QFNGELVN(+.98)LC(+57.02)MLK">
+            <mod_aminoacid_mass position="8" mass="115.02695"/>
+            <mod_aminoacid_mass position="10" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.8238262"/>
+          <search_score name="positional_conf" value="0.35,0.40,0.74,0.88,0.98,0.99,0.96,0.93,0.93,0.88,0.80,0.87,0.90"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14593" end_scan="14593" precursor_neutral_mass="1163.5845" assumed_charge="2" index="64224">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HHLSDSVQNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1163.5684" massdiff="13.8">
+          <search_score name="PeaksDenovoScore" value="0.82275474"/>
+          <search_score name="positional_conf" value="0.75,0.75,0.92,0.94,0.88,0.83,0.85,0.82,0.67,0.73"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24412" end_scan="24412" precursor_neutral_mass="1295.6786" assumed_charge="3" index="67790">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.6">
+          <search_score name="PeaksDenovoScore" value="0.8216386"/>
+          <search_score name="positional_conf" value="0.67,0.90,0.93,0.92,0.99,0.99,0.93,0.93,0.70,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="4776" end_scan="4776" precursor_neutral_mass="756.3775" assumed_charge="2" index="62035">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EDPGLAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="756.3766" massdiff="1.2">
+          <search_score name="PeaksDenovoScore" value="0.8209534"/>
+          <search_score name="positional_conf" value="0.77,0.59,0.89,0.91,0.97,0.95,0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14249" end_scan="14249" precursor_neutral_mass="1295.6779" assumed_charge="3" index="64187">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.1">
+          <search_score name="PeaksDenovoScore" value="0.8195485"/>
+          <search_score name="positional_conf" value="0.80,0.94,0.98,0.98,0.99,0.99,0.86,0.80,0.57,0.20"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16530" end_scan="16530" precursor_neutral_mass="1895.8533" assumed_charge="2" index="64650">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CTQAGTECLLSGWNATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1895.8506" massdiff="1.4">
+          <modification_info modified_peptide="C(+57.02)TQAGTEC(+57.02)LLSGWNATK">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="8" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.81905246"/>
+          <search_score name="positional_conf" value="0.35,0.64,0.58,0.99,0.89,0.90,0.96,0.95,0.97,0.97,0.93,0.75,0.87,0.91,0.96,0.85,0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20293" end_scan="20293" precursor_neutral_mass="1295.6788" assumed_charge="3" index="66235">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.8">
+          <search_score name="PeaksDenovoScore" value="0.81818247"/>
+          <search_score name="positional_conf" value="0.90,0.98,0.96,0.95,0.99,0.99,0.85,0.77,0.52,0.20"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18693" end_scan="18693" precursor_neutral_mass="1295.6780" assumed_charge="3" index="65613">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.1">
+          <search_score name="PeaksDenovoScore" value="0.8151615"/>
+          <search_score name="positional_conf" value="0.65,0.90,0.93,0.93,0.97,0.98,0.92,0.93,0.68,0.18"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17597" end_scan="17597" precursor_neutral_mass="1765.7798" assumed_charge="2" index="65152">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ARCPCMLLSGWGNTK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1765.8062" massdiff="-14.9">
+          <modification_info modified_peptide="ARC(+57.02)PC(+57.02)M(+15.99)LLSGWGNTK">
+            <mod_aminoacid_mass position="3" mass="160.03065"/>
+            <mod_aminoacid_mass position="5" mass="160.03065"/>
+            <mod_aminoacid_mass position="6" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.808771"/>
+          <search_score name="positional_conf" value="0.61,0.54,0.62,0.26,0.59,0.66,0.99,0.99,0.99,0.93,0.95,0.98,0.95,0.97,0.98"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14954" end_scan="14954" precursor_neutral_mass="1295.6774" assumed_charge="3" index="64260">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="13.7">
+          <search_score name="PeaksDenovoScore" value="0.8024111"/>
+          <search_score name="positional_conf" value="0.71,0.92,0.98,0.97,0.99,0.99,0.86,0.78,0.54,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11053" end_scan="11053" precursor_neutral_mass="823.4934" assumed_charge="2" index="63797">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VPGVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="823.4916" massdiff="2.2">
+          <search_score name="PeaksDenovoScore" value="0.79991806"/>
+          <search_score name="positional_conf" value="0.83,0.56,0.53,0.96,0.97,0.98,0.97,0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="6572" end_scan="6572" precursor_neutral_mass="877.4520" assumed_charge="2" index="62515">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSTSLDSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="877.4505" massdiff="1.7">
+          <search_score name="PeaksDenovoScore" value="0.79942703"/>
+          <search_score name="positional_conf" value="0.94,0.98,0.97,0.92,0.65,0.45,0.68,0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16331" end_scan="16331" precursor_neutral_mass="1295.6781" assumed_charge="3" index="64554">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.3">
+          <search_score name="PeaksDenovoScore" value="0.79701334"/>
+          <search_score name="positional_conf" value="0.52,0.83,0.98,0.97,0.97,0.98,0.92,0.87,0.68,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13772" end_scan="13772" precursor_neutral_mass="1295.6790" assumed_charge="3" index="64148">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.5">
+          <search_score name="PeaksDenovoScore" value="0.7955261"/>
+          <search_score name="positional_conf" value="0.88,0.98,0.96,0.94,0.99,0.99,0.93,0.62,0.74,0.42,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8734" end_scan="8734" precursor_neutral_mass="1032.5099" assumed_charge="2" index="63167">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NVLEGEMLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1032.5161" massdiff="-6.1">
+          <modification_info modified_peptide="N(+.98)VLEGEMLK">
+            <mod_aminoacid_mass position="1" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.79307276"/>
+          <search_score name="positional_conf" value="0.59,0.65,0.99,0.98,0.70,0.92,0.68,0.80,0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11144" end_scan="11144" precursor_neutral_mass="823.4928" assumed_charge="2" index="63815">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VPGVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="823.4916" massdiff="1.5">
+          <search_score name="PeaksDenovoScore" value="0.7862549"/>
+          <search_score name="positional_conf" value="0.81,0.51,0.67,0.90,0.92,0.95,0.96,0.50"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8803" end_scan="8803" precursor_neutral_mass="889.4674" assumed_charge="2" index="63191">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSGWSGKR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="889.4770" massdiff="-10.8">
+          <search_score name="PeaksDenovoScore" value="0.78303784"/>
+          <search_score name="positional_conf" value="0.97,0.98,0.95,0.95,0.80,0.31,0.65,0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15014" end_scan="15014" precursor_neutral_mass="1056.4894" assumed_charge="2" index="64278">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GSNSSSYLSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1056.4836" massdiff="5.4">
+          <search_score name="PeaksDenovoScore" value="0.7828793"/>
+          <search_score name="positional_conf" value="0.16,0.35,0.42,0.98,0.99,0.99,0.97,0.99,0.98,0.94"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24458" end_scan="24458" precursor_neutral_mass="1295.6766" assumed_charge="3" index="67793">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="13.1">
+          <search_score name="PeaksDenovoScore" value="0.7814077"/>
+          <search_score name="positional_conf" value="0.68,0.90,0.93,0.93,0.97,0.98,0.85,0.77,0.53,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19450" end_scan="19450" precursor_neutral_mass="1295.6788" assumed_charge="3" index="65880">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.8">
+          <search_score name="PeaksDenovoScore" value="0.7791478"/>
+          <search_score name="positional_conf" value="0.68,0.90,0.93,0.93,0.97,0.98,0.84,0.76,0.52,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="26557" end_scan="26557" precursor_neutral_mass="926.4858" assumed_charge="2" index="68344">
+      <search_result>
+        <search_hit hit_rank="1" peptide="YLYELAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="926.4861" massdiff="-0.4">
+          <search_score name="PeaksDenovoScore" value="0.7724137"/>
+          <search_score name="positional_conf" value="0.97,0.98,0.96,0.92,0.66,0.42,0.43"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17298" end_scan="17298" precursor_neutral_mass="1909.8352" assumed_charge="2" index="65028">
+      <search_result>
+        <search_hit hit_rank="1" peptide="RACACECLLSGWGAATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1909.8596" massdiff="-12.8">
+          <modification_info modified_peptide="RAC(+57.02)AC(+57.02)EC(+57.02)LLSGWGAATK">
+            <mod_aminoacid_mass position="3" mass="160.03065"/>
+            <mod_aminoacid_mass position="5" mass="160.03065"/>
+            <mod_aminoacid_mass position="7" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.77204525"/>
+          <search_score name="positional_conf" value="0.18,0.27,0.27,0.29,0.92,0.97,0.93,0.95,0.98,0.97,0.87,0.93,0.88,0.95,0.97,0.83,0.81"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="5603" end_scan="5603" precursor_neutral_mass="796.3727" assumed_charge="2" index="62217">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MDLGAYK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="796.3789" massdiff="-7.8">
+          <search_score name="PeaksDenovoScore" value="0.77183783"/>
+          <search_score name="positional_conf" value="0.95,0.98,0.98,0.80,0.61,0.59,0.45"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13853" end_scan="13853" precursor_neutral_mass="1295.6788" assumed_charge="3" index="64157">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.8">
+          <search_score name="PeaksDenovoScore" value="0.76994145"/>
+          <search_score name="positional_conf" value="0.47,0.80,0.93,0.93,0.97,0.97,0.89,0.90,0.59,0.16"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16815" end_scan="16815" precursor_neutral_mass="2061.8669" assumed_charge="2" index="64773">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CYMAAASECLLSGWGNTR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2061.8706" massdiff="-1.7">
+          <modification_info modified_peptide="C(+57.02)YM(+15.99)AAASEC(+57.02)LLSGWGNTR">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="3" mass="147.03542"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.7674821"/>
+          <search_score name="positional_conf" value="0.57,0.32,0.31,0.66,0.98,0.75,0.77,0.97,0.97,0.98,0.98,0.99,0.95,0.94,0.70,0.71,0.68,0.47"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="10959" end_scan="10959" precursor_neutral_mass="823.4932" assumed_charge="2" index="63775">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VPGVSLPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="823.4916" massdiff="2.0">
+          <search_score name="PeaksDenovoScore" value="0.7663565"/>
+          <search_score name="positional_conf" value="0.80,0.50,0.47,0.95,0.95,0.97,0.96,0.47"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21031" end_scan="21031" precursor_neutral_mass="1307.7062" assumed_charge="2" index="66586">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LVVYPWRTMK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1307.7061" massdiff="0.1">
+          <modification_info modified_peptide="LVVYPWRTM(+15.99)K">
+            <mod_aminoacid_mass position="9" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.7653234"/>
+          <search_score name="positional_conf" value="0.73,0.82,0.99,0.97,0.93,0.80,0.61,0.54,0.58,0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13485" end_scan="13485" precursor_neutral_mass="1565.7356" assumed_charge="2" index="64131">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CDNGQLVDLAVPHK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1565.7507" massdiff="-9.7">
+          <modification_info modified_peptide="C(+57.02)DNGQ(+.98)LVDLAVPHK">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="5" mass="129.04259"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.7649536"/>
+          <search_score name="positional_conf" value="0.43,0.45,0.79,0.88,0.99,0.99,0.97,0.96,0.92,0.58,0.57,0.73,0.78,0.57"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="22457" end_scan="22457" precursor_neutral_mass="1295.6788" assumed_charge="3" index="67111">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHMLHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="12.2">
+          <search_score name="PeaksDenovoScore" value="0.76405054"/>
+          <search_score name="positional_conf" value="0.70,0.88,0.85,0.91,0.96,0.97,0.80,0.77,0.53,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18567" end_scan="18567" precursor_neutral_mass="1525.7462" assumed_charge="2" index="65561">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GFNSYPSLLQWSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1525.7566" massdiff="-6.8">
+          <search_score name="PeaksDenovoScore" value="0.7636503"/>
+          <search_score name="positional_conf" value="0.22,0.43,0.59,0.98,0.98,0.96,0.93,0.93,0.82,0.82,0.74,0.73,0.68"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12646" end_scan="12646" precursor_neutral_mass="926.4870" assumed_charge="2" index="64055">
+      <search_result>
+        <search_hit hit_rank="1" peptide="YLYELAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="926.4861" massdiff="0.9">
+          <search_score name="PeaksDenovoScore" value="0.76295036"/>
+          <search_score name="positional_conf" value="0.96,0.98,0.95,0.91,0.51,0.41,0.56"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="26925" end_scan="26925" precursor_neutral_mass="926.4863" assumed_charge="2" index="68523">
+      <search_result>
+        <search_hit hit_rank="1" peptide="YLYGAGKR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="926.4974" massdiff="-12.0">
+          <search_score name="PeaksDenovoScore" value="0.7628253"/>
+          <search_score name="positional_conf" value="0.92,0.95,0.94,0.63,0.80,0.29,0.66,0.85"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11547" end_scan="11547" precursor_neutral_mass="874.4760" assumed_charge="2" index="63902">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TVVDLGGSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="874.4760" massdiff="0.0">
+          <search_score name="PeaksDenovoScore" value="0.76174194"/>
+          <search_score name="positional_conf" value="0.56,0.79,0.95,0.96,0.95,0.63,0.57,0.71,0.67"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17189" end_scan="17189" precursor_neutral_mass="972.5192" assumed_charge="2" index="64982">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FDHSAKLR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="972.5141" massdiff="5.2">
+          <search_score name="PeaksDenovoScore" value="0.7600042"/>
+          <search_score name="positional_conf" value="0.94,0.96,0.97,0.91,0.48,0.54,0.65,0.54"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17411" end_scan="17411" precursor_neutral_mass="1910.8550" assumed_charge="2" index="65072">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QMNAGTECGGLSGWKATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1910.8616" massdiff="-3.5">
+          <modification_info modified_peptide="QM(+15.99)NAGTEC(+57.02)GGLSGWKATK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+            <mod_aminoacid_mass position="8" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.7589217"/>
+          <search_score name="positional_conf" value="0.24,0.25,0.48,0.98,0.89,0.95,0.98,0.91,0.50,0.58,0.97,0.98,0.90,0.90,0.94,0.96,0.86,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17798" end_scan="17798" precursor_neutral_mass="1793.8103" assumed_charge="2" index="65253">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VQMSCWLLSGWGNTR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1793.8342" massdiff="-13.4">
+          <modification_info modified_peptide="VQMSC(+57.02)WLLSGWGNTR">
+            <mod_aminoacid_mass position="5" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.7564094"/>
+          <search_score name="positional_conf" value="0.36,0.40,0.84,0.54,0.35,0.40,0.99,0.99,0.99,0.92,0.94,0.95,0.95,0.88,0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="6716" end_scan="6716" precursor_neutral_mass="1144.5616" assumed_charge="2" index="62545">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NNGGGLGSKWR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1144.5737" massdiff="-10.6">
+          <search_score name="PeaksDenovoScore" value="0.7534491"/>
+          <search_score name="positional_conf" value="0.47,0.76,0.91,0.93,0.85,0.95,0.91,0.88,0.82,0.43,0.28"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="9656" end_scan="9656" precursor_neutral_mass="1108.5050" assumed_charge="2" index="63448">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AEYQELPMK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1108.5110" massdiff="-5.4">
+          <modification_info modified_peptide="AEYQ(+.98)ELPMK">
+            <mod_aminoacid_mass position="4" mass="129.04259"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.75156814"/>
+          <search_score name="positional_conf" value="0.52,0.80,0.98,0.97,0.97,0.91,0.56,0.53,0.45"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="4508" end_scan="4508" precursor_neutral_mass="1081.4728" assumed_charge="2" index="62006">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MGMEETGALK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1081.4783" massdiff="-5.1">
+          <modification_info modified_peptide="MGM(+15.99)EETGALK">
+            <mod_aminoacid_mass position="3" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.74811536"/>
+          <search_score name="positional_conf" value="0.58,0.48,0.95,0.98,0.98,0.92,0.80,0.66,0.73,0.32"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8360" end_scan="8360" precursor_neutral_mass="788.4656" assumed_charge="2" index="63015">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LVTVETK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="788.4644" massdiff="1.6">
+          <search_score name="PeaksDenovoScore" value="0.7473509"/>
+          <search_score name="positional_conf" value="0.92,0.86,0.43,0.40,0.86,0.80,0.89"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17899" end_scan="17899" precursor_neutral_mass="1939.9333" assumed_charge="2" index="65272">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MNFQENGQLVDLHLGPK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1939.9460" massdiff="-6.6">
+          <modification_info modified_peptide="MNFQENGQ(+.98)LVDLHLGPK">
+            <mod_aminoacid_mass position="8" mass="129.04259"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.7452099"/>
+          <search_score name="positional_conf" value="0.34,0.40,0.99,0.98,0.97,0.91,0.90,0.98,0.99,0.97,0.85,0.93,0.62,0.66,0.43,0.38,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13119" end_scan="13119" precursor_neutral_mass="1015.5203" assumed_charge="2" index="64097">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FLEDVTHR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1015.5087" massdiff="11.5">
+          <search_score name="PeaksDenovoScore" value="0.74400675"/>
+          <search_score name="positional_conf" value="0.98,0.99,0.98,0.80,0.45,0.53,0.53,0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24880" end_scan="24880" precursor_neutral_mass="1295.6786" assumed_charge="3" index="67922">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKSAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.8">
+          <search_score name="PeaksDenovoScore" value="0.7429914"/>
+          <search_score name="positional_conf" value="0.79,0.97,0.98,0.97,0.97,0.98,0.95,0.51,0.40,0.35,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19146" end_scan="19146" precursor_neutral_mass="1295.6792" assumed_charge="3" index="65764">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.3">
+          <search_score name="PeaksDenovoScore" value="0.73706186"/>
+          <search_score name="positional_conf" value="0.63,0.89,0.93,0.93,0.97,0.98,0.94,0.64,0.47,0.41,0.22"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="22914" end_scan="22914" precursor_neutral_mass="1295.6801" assumed_charge="3" index="67266">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TKWPHLYHSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6775" massdiff="2.0">
+          <search_score name="PeaksDenovoScore" value="0.73664004"/>
+          <search_score name="positional_conf" value="0.45,0.59,0.59,0.61,0.95,0.97,0.90,0.85,0.71,0.65"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="22003" end_scan="22003" precursor_neutral_mass="1295.6788" assumed_charge="3" index="66946">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLHLHK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6709" massdiff="6.2">
+          <search_score name="PeaksDenovoScore" value="0.7364315"/>
+          <search_score name="positional_conf" value="0.63,0.88,0.92,0.92,0.97,0.97,0.56,0.66,0.38,0.38"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18793" end_scan="18793" precursor_neutral_mass="1295.6792" assumed_charge="3" index="65643">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="12.4">
+          <search_score name="PeaksDenovoScore" value="0.735037"/>
+          <search_score name="positional_conf" value="0.83,0.94,0.73,0.71,0.98,0.98,0.75,0.72,0.46,0.16"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18627" end_scan="18627" precursor_neutral_mass="1553.7780" assumed_charge="2" index="65598">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DSGSSYALLLKNMR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1553.7871" massdiff="-5.9">
+          <search_score name="PeaksDenovoScore" value="0.73069745"/>
+          <search_score name="positional_conf" value="0.92,0.92,0.54,0.84,0.98,0.98,0.43,0.56,0.88,0.96,0.85,0.40,0.41,0.46"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="26905" end_scan="26905" precursor_neutral_mass="1295.6837" assumed_charge="3" index="68511">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKGTK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="2.2">
+          <search_score name="PeaksDenovoScore" value="0.7297489"/>
+          <search_score name="positional_conf" value="0.87,0.96,0.98,0.97,0.97,0.98,0.93,0.52,0.19,0.35,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8680" end_scan="8680" precursor_neutral_mass="1066.4836" assumed_charge="2" index="63143">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EAYENLAEK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1066.4819" massdiff="1.6">
+          <modification_info modified_peptide="EAYEN(+.98)LAEK">
+            <mod_aminoacid_mass position="5" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.7292373"/>
+          <search_score name="positional_conf" value="0.78,0.58,0.95,0.98,0.89,0.72,0.31,0.74,0.53"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23957" end_scan="23957" precursor_neutral_mass="1295.6796" assumed_charge="3" index="67662">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTSAKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.1">
+          <search_score name="PeaksDenovoScore" value="0.7244683"/>
+          <search_score name="positional_conf" value="0.77,0.93,0.98,0.96,0.96,0.97,0.90,0.29,0.48,0.40,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18480" end_scan="18480" precursor_neutral_mass="1295.6785" assumed_charge="3" index="65541">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.6">
+          <search_score name="PeaksDenovoScore" value="0.72404194"/>
+          <search_score name="positional_conf" value="0.41,0.86,0.80,0.88,0.96,0.97,0.85,0.76,0.51,0.16"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20588" end_scan="20588" precursor_neutral_mass="1295.6781" assumed_charge="3" index="66381">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.3">
+          <search_score name="PeaksDenovoScore" value="0.7230123"/>
+          <search_score name="positional_conf" value="0.42,0.77,0.90,0.91,0.96,0.97,0.83,0.74,0.48,0.16"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16726" end_scan="16726" precursor_neutral_mass="1295.6792" assumed_charge="3" index="64753">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKSAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.3">
+          <search_score name="PeaksDenovoScore" value="0.72209525"/>
+          <search_score name="positional_conf" value="0.88,0.98,0.95,0.93,0.99,0.99,0.93,0.35,0.35,0.31,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14327" end_scan="14327" precursor_neutral_mass="1295.6792" assumed_charge="3" index="64194">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTSAKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.3">
+          <search_score name="PeaksDenovoScore" value="0.7209623"/>
+          <search_score name="positional_conf" value="0.77,0.93,0.98,0.97,0.97,0.97,0.77,0.38,0.42,0.45,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17614" end_scan="17614" precursor_neutral_mass="1295.6829" assumed_charge="3" index="65156">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTSAKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="1.5">
+          <search_score name="PeaksDenovoScore" value="0.7163021"/>
+          <search_score name="positional_conf" value="0.76,0.93,0.97,0.97,0.97,0.97,0.92,0.27,0.40,0.40,0.23"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14270" end_scan="14270" precursor_neutral_mass="925.4827" assumed_charge="2" index="64189">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EMHPGVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4691" massdiff="14.6">
+          <modification_info modified_peptide="EM(+15.99)HPGVLK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.71588695"/>
+          <search_score name="positional_conf" value="0.78,0.63,0.98,0.90,0.51,0.61,0.72,0.54"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18545" end_scan="18545" precursor_neutral_mass="1539.7627" assumed_charge="2" index="65555">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TSGSSYPLSNKNASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1539.7529" massdiff="6.3">
+          <search_score name="PeaksDenovoScore" value="0.71352607"/>
+          <search_score name="positional_conf" value="0.87,0.88,0.68,0.91,0.99,0.98,0.85,0.38,0.31,0.62,0.85,0.64,0.68,0.63,0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20792" end_scan="20792" precursor_neutral_mass="1145.5558" assumed_charge="2" index="66454">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QQLSGWQGDK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1145.5466" massdiff="8.0">
+          <search_score name="PeaksDenovoScore" value="0.7130713"/>
+          <search_score name="positional_conf" value="0.41,0.42,0.81,0.99,0.98,0.96,0.83,0.35,0.58,0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11631" end_scan="11631" precursor_neutral_mass="1089.5485" assumed_charge="2" index="63920">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVSSWANR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1089.5566" massdiff="-7.5">
+          <search_score name="PeaksDenovoScore" value="0.7112645"/>
+          <search_score name="positional_conf" value="0.86,0.92,0.98,0.92,0.50,0.48,0.48,0.64,0.59,0.64"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23530" end_scan="23530" precursor_neutral_mass="1295.6792" assumed_charge="3" index="67524">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTASKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.3">
+          <search_score name="PeaksDenovoScore" value="0.7094722"/>
+          <search_score name="positional_conf" value="0.75,0.92,0.94,0.92,0.99,0.99,0.93,0.40,0.34,0.36,0.20"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="22245" end_scan="22245" precursor_neutral_mass="1295.6781" assumed_charge="3" index="67044">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTTKGK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-2.2">
+          <search_score name="PeaksDenovoScore" value="0.7070048"/>
+          <search_score name="positional_conf" value="0.61,0.83,0.81,0.80,0.95,0.96,0.94,0.80,0.51,0.26,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="4788" end_scan="4788" precursor_neutral_mass="1026.4272" assumed_charge="2" index="62036">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MSKESCNR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1026.4222" massdiff="4.9">
+          <modification_info modified_peptide="M(+15.99)SKESC(+57.02)NR">
+            <mod_aminoacid_mass position="1" mass="147.03542"/>
+            <mod_aminoacid_mass position="6" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.7057613"/>
+          <search_score name="positional_conf" value="0.97,0.97,0.89,0.91,0.45,0.42,0.64,0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21185" end_scan="21185" precursor_neutral_mass="1295.6792" assumed_charge="3" index="66640">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTASKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.3">
+          <search_score name="PeaksDenovoScore" value="0.7046252"/>
+          <search_score name="positional_conf" value="0.84,0.97,0.97,0.97,0.97,0.97,0.87,0.24,0.34,0.32,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="25155" end_scan="25155" precursor_neutral_mass="2054.0933" assumed_charge="4" index="67965">
+      <search_result>
+        <search_hit hit_rank="1" peptide="RHLMFYAPELLFFAKR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2054.0923" massdiff="0.5">
+          <modification_info modified_peptide="RHLM(+15.99)FYAPELLFFAKR">
+            <mod_aminoacid_mass position="4" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.70426065"/>
+          <search_score name="positional_conf" value="0.20,0.20,0.24,0.21,0.96,0.98,0.99,0.98,0.99,0.99,0.98,0.97,0.91,0.56,0.53,0.47"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16563" end_scan="16563" precursor_neutral_mass="1931.8496" assumed_charge="3" index="64663">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SCAAAGTEGTHLSGWGSQR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1931.8545" massdiff="-2.5">
+          <modification_info modified_peptide="SC(+57.02)AAAGTEGTHLSGWGSQR">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.70346725"/>
+          <search_score name="positional_conf" value="0.78,0.80,0.98,0.98,0.98,0.73,0.79,0.85,0.36,0.33,0.40,0.95,0.97,0.83,0.75,0.32,0.53,0.47,0.41"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23034" end_scan="23034" precursor_neutral_mass="1295.6796" assumed_charge="3" index="67312">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.1">
+          <search_score name="PeaksDenovoScore" value="0.70246685"/>
+          <search_score name="positional_conf" value="0.61,0.64,0.93,0.93,0.97,0.98,0.93,0.61,0.42,0.41,0.22"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14260" end_scan="14260" precursor_neutral_mass="925.4821" assumed_charge="2" index="64188">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EMHPGVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4691" massdiff="14.0">
+          <modification_info modified_peptide="EM(+15.99)HPGVLK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.70177007"/>
+          <search_score name="positional_conf" value="0.75,0.59,0.98,0.87,0.47,0.59,0.72,0.56"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8274" end_scan="8274" precursor_neutral_mass="1449.6006" assumed_charge="2" index="62983">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DCENSSPATLNDK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1449.6042" massdiff="-2.5">
+          <modification_info modified_peptide="DC(+57.02)ENSSPATLNDK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.6962661"/>
+          <search_score name="positional_conf" value="0.32,0.32,0.57,0.52,0.92,0.97,0.95,0.95,0.86,0.87,0.72,0.54,0.45"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18107" end_scan="18107" precursor_neutral_mass="1295.6786" assumed_charge="3" index="65372">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.6">
+          <search_score name="PeaksDenovoScore" value="0.69624144"/>
+          <search_score name="positional_conf" value="0.59,0.84,0.66,0.58,0.89,0.98,0.84,0.76,0.52,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17347" end_scan="17347" precursor_neutral_mass="2061.8650" assumed_charge="2" index="65042">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SCNVGTECQHLSGWGASGR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2061.8745" massdiff="-4.6">
+          <modification_info modified_peptide="SC(+57.02)NVGTEC(+57.02)QHLSGWGASGR">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="8" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.69221973"/>
+          <search_score name="positional_conf" value="0.31,0.33,0.52,0.58,0.92,0.97,0.98,0.68,0.24,0.25,0.95,0.96,0.92,0.90,0.89,0.96,0.70,0.41,0.54"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21418" end_scan="21418" precursor_neutral_mass="1295.6796" assumed_charge="3" index="66731">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.0">
+          <search_score name="PeaksDenovoScore" value="0.69199175"/>
+          <search_score name="positional_conf" value="0.58,0.87,0.91,0.91,0.97,0.97,0.90,0.42,0.38,0.38,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15452" end_scan="15452" precursor_neutral_mass="925.4819" assumed_charge="2" index="64350">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FEHPGLAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4770" massdiff="5.3">
+          <search_score name="PeaksDenovoScore" value="0.6879151"/>
+          <search_score name="positional_conf" value="0.51,0.78,0.98,0.89,0.50,0.67,0.71,0.40"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15675" end_scan="15675" precursor_neutral_mass="1295.6776" assumed_charge="2" index="64390">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHMLHSSGRLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6592" massdiff="14.2">
+          <search_score name="PeaksDenovoScore" value="0.68743557"/>
+          <search_score name="positional_conf" value="0.92,0.89,0.68,0.78,0.82,0.61,0.48,0.41,0.64,0.71,0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16941" end_scan="16941" precursor_neutral_mass="2211.1040" assumed_charge="2" index="64838">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NWHNLDVLEGRVDLNVYR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2211.1184" massdiff="-6.5">
+          <search_score name="PeaksDenovoScore" value="0.68594813"/>
+          <search_score name="positional_conf" value="0.24,0.28,0.90,0.68,0.85,0.90,0.93,0.95,0.85,0.27,0.36,0.85,0.97,0.97,0.85,0.43,0.48,0.41"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14639" end_scan="14639" precursor_neutral_mass="1185.5667" assumed_charge="2" index="64231">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SLPYLMMTSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1185.5774" massdiff="-9.1">
+          <modification_info modified_peptide="SLPYLM(+15.99)MTSK">
+            <mod_aminoacid_mass position="6" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.68264306"/>
+          <search_score name="positional_conf" value="0.48,0.68,0.91,0.72,0.53,0.29,0.40,0.90,0.92,0.90"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15747" end_scan="15747" precursor_neutral_mass="1295.6798" assumed_charge="3" index="64410">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLQMKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="12.9">
+          <search_score name="PeaksDenovoScore" value="0.67992425"/>
+          <search_score name="positional_conf" value="0.91,0.98,0.98,0.98,0.97,0.93,0.37,0.27,0.19,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15045" end_scan="15045" precursor_neutral_mass="1295.6793" assumed_charge="3" index="64281">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GPNFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6775" massdiff="1.4">
+          <search_score name="PeaksDenovoScore" value="0.6791141"/>
+          <search_score name="positional_conf" value="0.18,0.22,0.54,0.97,0.96,0.98,0.99,0.91,0.85,0.64,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24043" end_scan="24043" precursor_neutral_mass="1295.6787" assumed_charge="3" index="67672">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.7">
+          <search_score name="PeaksDenovoScore" value="0.67866313"/>
+          <search_score name="positional_conf" value="0.58,0.82,0.66,0.59,0.94,0.97,0.80,0.71,0.45,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13135" end_scan="13135" precursor_neutral_mass="1683.7882" assumed_charge="2" index="64099">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CSNLTNGNLHNLQAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1683.7998" massdiff="-6.9">
+          <modification_info modified_peptide="C(+57.02)SN(+.98)LTNGNLHNLQAK">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="3" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.6779152"/>
+          <search_score name="positional_conf" value="0.40,0.50,0.94,0.98,0.95,0.86,0.79,0.73,0.57,0.58,0.56,0.79,0.43,0.48,0.47"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17383" end_scan="17383" precursor_neutral_mass="1295.6790" assumed_charge="3" index="65066">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.9">
+          <search_score name="PeaksDenovoScore" value="0.67568153"/>
+          <search_score name="positional_conf" value="0.53,0.80,0.64,0.58,0.95,0.97,0.80,0.74,0.48,0.17"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15955" end_scan="15955" precursor_neutral_mass="1130.4696" assumed_charge="2" index="64456">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TMSDDPGHQK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1130.4663" massdiff="2.9">
+          <modification_info modified_peptide="TM(+15.99)SDDPGHQK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.67345095"/>
+          <search_score name="positional_conf" value="0.43,0.45,0.57,0.53,0.65,0.72,0.65,0.88,0.88,0.86"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17742" end_scan="17742" precursor_neutral_mass="1295.6782" assumed_charge="3" index="65216">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.3">
+          <search_score name="PeaksDenovoScore" value="0.67315304"/>
+          <search_score name="positional_conf" value="0.54,0.84,0.53,0.47,0.95,0.97,0.85,0.80,0.48,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15993" end_scan="15993" precursor_neutral_mass="925.4819" assumed_charge="2" index="64466">
+      <search_result>
+        <search_hit hit_rank="1" peptide="YLWAFAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4810" massdiff="1.0">
+          <search_score name="PeaksDenovoScore" value="0.6727906"/>
+          <search_score name="positional_conf" value="0.64,0.75,0.89,0.65,0.46,0.56,0.67"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13821" end_scan="13821" precursor_neutral_mass="923.4506" assumed_charge="2" index="64153">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NPPWAPNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="923.4501" massdiff="0.5">
+          <modification_info modified_peptide="NPPWAPN(+.98)K">
+            <mod_aminoacid_mass position="7" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.6719315"/>
+          <search_score name="positional_conf" value="0.43,0.64,0.52,0.75,0.89,0.52,0.70,0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15297" end_scan="15297" precursor_neutral_mass="760.3782" assumed_charge="2" index="64323">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GHWPHK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="760.3769" massdiff="1.7">
+          <search_score name="PeaksDenovoScore" value="0.6695907"/>
+          <search_score name="positional_conf" value="0.24,0.50,0.83,0.73,0.75,0.91"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21893" end_scan="21893" precursor_neutral_mass="1295.6791" assumed_charge="3" index="66915">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.1">
+          <search_score name="PeaksDenovoScore" value="0.66851705"/>
+          <search_score name="positional_conf" value="0.48,0.80,0.66,0.66,0.95,0.97,0.90,0.61,0.58,0.45,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16229" end_scan="16229" precursor_neutral_mass="925.4834" assumed_charge="2" index="64515">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FEHPGLAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4770" massdiff="6.9">
+          <search_score name="PeaksDenovoScore" value="0.6671401"/>
+          <search_score name="positional_conf" value="0.52,0.80,0.98,0.85,0.53,0.73,0.62,0.25"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15671" end_scan="15671" precursor_neutral_mass="925.4833" assumed_charge="2" index="64389">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EMHPRLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4803" massdiff="3.2">
+          <modification_info modified_peptide="EM(+15.99)HPRLK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.6664306"/>
+          <search_score name="positional_conf" value="0.72,0.52,0.95,0.64,0.36,0.67,0.73"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23747" end_scan="23747" precursor_neutral_mass="1295.6792" assumed_charge="3" index="67597">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GPNFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6775" massdiff="1.3">
+          <search_score name="PeaksDenovoScore" value="0.66225934"/>
+          <search_score name="positional_conf" value="0.19,0.22,0.62,0.91,0.89,0.95,0.97,0.88,0.89,0.56,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24674" end_scan="24674" precursor_neutral_mass="1295.6779" assumed_charge="3" index="67863">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.1">
+          <search_score name="PeaksDenovoScore" value="0.6611122"/>
+          <search_score name="positional_conf" value="0.37,0.41,0.89,0.88,0.95,0.96,0.80,0.71,0.43,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23745" end_scan="23745" precursor_neutral_mass="1295.6781" assumed_charge="3" index="67596">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTSAKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-2.1">
+          <search_score name="PeaksDenovoScore" value="0.6596933"/>
+          <search_score name="positional_conf" value="0.37,0.75,0.91,0.90,0.96,0.97,0.88,0.37,0.58,0.32,0.16"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8232" end_scan="8232" precursor_neutral_mass="1466.5800" assumed_charge="2" index="62962">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CDMLSSPATPGCR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1466.5952" massdiff="-10.4">
+          <modification_info modified_peptide="C(+57.02)DM(+15.99)LSSPATPGC(+57.02)R">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="3" mass="147.03542"/>
+            <mod_aminoacid_mass position="12" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.65821785"/>
+          <search_score name="positional_conf" value="0.31,0.38,0.65,0.95,0.97,0.98,0.96,0.97,0.88,0.42,0.29,0.42,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23127" end_scan="23127" precursor_neutral_mass="1295.6792" assumed_charge="3" index="67343">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKTGK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.3">
+          <search_score name="PeaksDenovoScore" value="0.6577508"/>
+          <search_score name="positional_conf" value="0.46,0.80,0.92,0.91,0.97,0.97,0.93,0.35,0.46,0.18,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15898" end_scan="15898" precursor_neutral_mass="925.4822" assumed_charge="2" index="64445">
+      <search_result>
+        <search_hit hit_rank="1" peptide="YLWAFAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4810" massdiff="1.3">
+          <search_score name="PeaksDenovoScore" value="0.65756065"/>
+          <search_score name="positional_conf" value="0.63,0.75,0.82,0.76,0.57,0.46,0.56"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="3626" end_scan="3626" precursor_neutral_mass="757.4574" assumed_charge="2" index="61780">
+      <search_result>
+        <search_hit hit_rank="1" peptide="KKMVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="757.4633" massdiff="-7.8">
+          <search_score name="PeaksDenovoScore" value="0.65737677"/>
+          <search_score name="positional_conf" value="0.42,0.62,0.33,0.82,0.84,0.87"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17253" end_scan="17253" precursor_neutral_mass="1295.6777" assumed_charge="3" index="65006">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-5.1">
+          <search_score name="PeaksDenovoScore" value="0.6555311"/>
+          <search_score name="positional_conf" value="0.75,0.92,0.70,0.67,0.94,0.96,0.92,0.37,0.35,0.34,0.18"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11490" end_scan="11490" precursor_neutral_mass="874.4765" assumed_charge="2" index="63892">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EAVDKVSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="874.4760" massdiff="0.6">
+          <search_score name="PeaksDenovoScore" value="0.6536584"/>
+          <search_score name="positional_conf" value="0.96,0.93,0.92,0.84,0.33,0.34,0.52,0.32"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24285" end_scan="24285" precursor_neutral_mass="1295.6348" assumed_charge="3" index="67746">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTSGNR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6194" massdiff="11.9">
+          <search_score name="PeaksDenovoScore" value="0.65173566"/>
+          <search_score name="positional_conf" value="0.40,0.75,0.91,0.91,0.97,0.97,0.91,0.37,0.27,0.40,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17111" end_scan="17111" precursor_neutral_mass="1295.6783" assumed_charge="3" index="64929">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.4">
+          <search_score name="PeaksDenovoScore" value="0.6490462"/>
+          <search_score name="positional_conf" value="0.41,0.70,0.79,0.76,0.97,0.98,0.61,0.66,0.38,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11739" end_scan="11739" precursor_neutral_mass="883.5134" assumed_charge="2" index="63946">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LATVGPAQK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="883.5127" massdiff="0.7">
+          <search_score name="PeaksDenovoScore" value="0.646245"/>
+          <search_score name="positional_conf" value="0.97,0.96,0.96,0.95,0.50,0.35,0.29,0.45,0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="10188" end_scan="10188" precursor_neutral_mass="1423.6285" assumed_charge="2" index="63594">
+      <search_result>
+        <search_hit hit_rank="1" peptide="WGKGGACGQNFDK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1423.6301" massdiff="-1.1">
+          <modification_info modified_peptide="WGKGGAC(+57.02)GQNFDK">
+            <mod_aminoacid_mass position="7" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.64602"/>
+          <search_score name="positional_conf" value="0.32,0.40,0.32,0.77,0.76,0.90,0.94,0.80,0.78,0.73,0.63,0.48,0.43"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8258" end_scan="8258" precursor_neutral_mass="1074.5682" assumed_charge="2" index="62975">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FAVPAEDKAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1074.5708" massdiff="-2.4">
+          <search_score name="PeaksDenovoScore" value="0.6441657"/>
+          <search_score name="positional_conf" value="0.41,0.47,0.87,0.89,0.85,0.89,0.68,0.38,0.43,0.45"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15304" end_scan="15304" precursor_neutral_mass="1295.6788" assumed_charge="3" index="64326">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.6">
+          <search_score name="PeaksDenovoScore" value="0.6433963"/>
+          <search_score name="positional_conf" value="0.38,0.73,0.76,0.72,0.98,0.99,0.90,0.48,0.45,0.41,0.20"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14406" end_scan="14406" precursor_neutral_mass="1295.6787" assumed_charge="3" index="64202">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTASKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.7">
+          <search_score name="PeaksDenovoScore" value="0.6396708"/>
+          <search_score name="positional_conf" value="0.42,0.78,0.91,0.91,0.96,0.97,0.82,0.24,0.43,0.31,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16131" end_scan="16131" precursor_neutral_mass="925.4822" assumed_charge="2" index="64487">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EFHPGLAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4770" massdiff="5.6">
+          <search_score name="PeaksDenovoScore" value="0.6384094"/>
+          <search_score name="positional_conf" value="0.75,0.54,0.96,0.77,0.37,0.63,0.61,0.38"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11360" end_scan="11360" precursor_neutral_mass="869.5341" assumed_charge="2" index="63859">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATVPQKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="869.5334" massdiff="0.7">
+          <search_score name="PeaksDenovoScore" value="0.6375131"/>
+          <search_score name="positional_conf" value="0.89,0.95,0.96,0.77,0.25,0.34,0.51,0.35"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11051" end_scan="11051" precursor_neutral_mass="863.4845" assumed_charge="2" index="63796">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VGYLKER" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="863.4865" massdiff="-2.3">
+          <search_score name="PeaksDenovoScore" value="0.63012475"/>
+          <search_score name="positional_conf" value="0.83,0.64,0.62,0.68,0.27,0.57,0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14568" end_scan="14568" precursor_neutral_mass="1295.6790" assumed_charge="3" index="64221">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.1">
+          <search_score name="PeaksDenovoScore" value="0.6278094"/>
+          <search_score name="positional_conf" value="0.48,0.80,0.67,0.67,0.95,0.97,0.91,0.48,0.35,0.32,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21538" end_scan="21538" precursor_neutral_mass="1295.6790" assumed_charge="3" index="66781">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.5">
+          <search_score name="PeaksDenovoScore" value="0.62472415"/>
+          <search_score name="positional_conf" value="0.37,0.41,0.90,0.90,0.96,0.97,0.90,0.52,0.33,0.33,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15479" end_scan="15479" precursor_neutral_mass="1295.6794" assumed_charge="3" index="64357">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NGPFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6775" massdiff="1.5">
+          <search_score name="PeaksDenovoScore" value="0.6247025"/>
+          <search_score name="positional_conf" value="0.19,0.13,0.19,0.96,0.96,0.96,0.97,0.89,0.83,0.59,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18256" end_scan="18256" precursor_neutral_mass="1295.6782" assumed_charge="3" index="65455">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.7">
+          <search_score name="PeaksDenovoScore" value="0.6238528"/>
+          <search_score name="positional_conf" value="0.47,0.76,0.63,0.63,0.93,0.96,0.83,0.46,0.52,0.38,0.18"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15213" end_scan="15213" precursor_neutral_mass="1295.6792" assumed_charge="3" index="64305">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GPNFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6775" massdiff="1.4">
+          <search_score name="PeaksDenovoScore" value="0.6232736"/>
+          <search_score name="positional_conf" value="0.18,0.22,0.61,0.89,0.86,0.98,0.98,0.79,0.70,0.43,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="26690" end_scan="26690" precursor_neutral_mass="926.4901" assumed_charge="2" index="68397">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FEYKVNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="926.4861" massdiff="4.2">
+          <search_score name="PeaksDenovoScore" value="0.6193019"/>
+          <search_score name="positional_conf" value="0.48,0.76,0.68,0.57,0.50,0.66,0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14652" end_scan="14652" precursor_neutral_mass="1295.6783" assumed_charge="3" index="64233">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="11.8">
+          <search_score name="PeaksDenovoScore" value="0.6191455"/>
+          <search_score name="positional_conf" value="0.31,0.65,0.63,0.64,0.93,0.96,0.75,0.68,0.42,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23150" end_scan="23150" precursor_neutral_mass="1295.6788" assumed_charge="3" index="67357">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="12.2">
+          <search_score name="PeaksDenovoScore" value="0.61630124"/>
+          <search_score name="positional_conf" value="0.31,0.64,0.63,0.64,0.93,0.96,0.75,0.68,0.42,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="9468" end_scan="9468" precursor_neutral_mass="958.5460" assumed_charge="2" index="63391">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LTVNDRLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="958.5447" massdiff="1.2">
+          <modification_info modified_peptide="LTVN(+.98)DRLK">
+            <mod_aminoacid_mass position="4" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.613308"/>
+          <search_score name="positional_conf" value="0.93,0.91,0.78,0.37,0.38,0.35,0.64,0.47"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12026" end_scan="12026" precursor_neutral_mass="951.3644" assumed_charge="2" index="63990">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EYECHSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="951.3756" massdiff="-11.8">
+          <modification_info modified_peptide="EYEC(+57.02)HSK">
+            <mod_aminoacid_mass position="4" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.61311275"/>
+          <search_score name="positional_conf" value="0.64,0.38,0.82,0.75,0.68,0.61,0.33"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21073" end_scan="21073" precursor_neutral_mass="1295.6796" assumed_charge="3" index="66599">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLHLHK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6743" massdiff="4.0">
+          <search_score name="PeaksDenovoScore" value="0.61050224"/>
+          <search_score name="positional_conf" value="0.48,0.83,0.65,0.65,0.93,0.96,0.41,0.38,0.32,0.41"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="3522" end_scan="3522" precursor_neutral_mass="758.4294" assumed_charge="2" index="61770">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VATNNLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="758.4286" massdiff="0.9">
+          <search_score name="PeaksDenovoScore" value="0.6091641"/>
+          <search_score name="positional_conf" value="0.68,0.68,0.50,0.24,0.23,0.92,0.96"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20570" end_scan="20570" precursor_neutral_mass="1295.6785" assumed_charge="3" index="66375">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHPFHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.6">
+          <search_score name="PeaksDenovoScore" value="0.608788"/>
+          <search_score name="positional_conf" value="0.34,0.62,0.41,0.58,0.97,0.98,0.81,0.73,0.43,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24175" end_scan="24175" precursor_neutral_mass="1295.6785" assumed_charge="3" index="67719">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="14.6">
+          <search_score name="PeaksDenovoScore" value="0.6079165"/>
+          <search_score name="positional_conf" value="0.28,0.58,0.65,0.57,0.85,0.96,0.76,0.79,0.42,0.12"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="22571" end_scan="22571" precursor_neutral_mass="1295.6810" assumed_charge="3" index="67133">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="13.8">
+          <search_score name="PeaksDenovoScore" value="0.6078581"/>
+          <search_score name="positional_conf" value="0.23,0.54,0.53,0.54,0.92,0.95,0.83,0.85,0.51,0.09"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17857" end_scan="17857" precursor_neutral_mass="1295.6801" assumed_charge="3" index="65261">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-0.6">
+          <search_score name="PeaksDenovoScore" value="0.6072808"/>
+          <search_score name="positional_conf" value="0.35,0.72,0.88,0.88,0.95,0.96,0.83,0.27,0.33,0.28,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16338" end_scan="16338" precursor_neutral_mass="925.4820" assumed_charge="2" index="64558">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EMHPGVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4691" massdiff="13.9">
+          <modification_info modified_peptide="EM(+15.99)HPGVLK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.6071387"/>
+          <search_score name="positional_conf" value="0.73,0.53,0.96,0.59,0.26,0.53,0.65,0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15432" end_scan="15432" precursor_neutral_mass="1913.8652" assumed_charge="3" index="64346">
+      <search_result>
+        <search_hit hit_rank="1" peptide="REFWECLLSGSCAATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1913.8765" massdiff="-5.9">
+          <modification_info modified_peptide="REFWEC(+57.02)LLSGSC(+57.02)AATK">
+            <mod_aminoacid_mass position="6" mass="160.03065"/>
+            <mod_aminoacid_mass position="12" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.60392493"/>
+          <search_score name="positional_conf" value="0.09,0.47,0.13,0.32,0.83,0.81,0.98,0.94,0.90,0.51,0.27,0.53,0.65,0.79,0.62,0.70"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="25084" end_scan="25084" precursor_neutral_mass="1295.6772" assumed_charge="3" index="67951">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HMFPHLYPVR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6597" massdiff="13.6">
+          <search_score name="PeaksDenovoScore" value="0.60329217"/>
+          <search_score name="positional_conf" value="0.53,0.45,0.68,0.64,0.94,0.96,0.75,0.47,0.38,0.12"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20165" end_scan="20165" precursor_neutral_mass="1295.6807" assumed_charge="3" index="66175">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHMLHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="13.6">
+          <search_score name="PeaksDenovoScore" value="0.6032561"/>
+          <search_score name="positional_conf" value="0.57,0.46,0.46,0.62,0.91,0.95,0.73,0.67,0.41,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12095" end_scan="12095" precursor_neutral_mass="1446.7716" assumed_charge="2" index="64001">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ALNGLSSVGPNPGHK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1446.7578" massdiff="9.5">
+          <search_score name="PeaksDenovoScore" value="0.6032264"/>
+          <search_score name="positional_conf" value="0.43,0.56,0.74,0.72,0.91,0.93,0.92,0.83,0.56,0.27,0.48,0.47,0.33,0.48,0.26"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21291" end_scan="21291" precursor_neutral_mass="1295.6792" assumed_charge="3" index="66674">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GPNFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6775" massdiff="1.3">
+          <search_score name="PeaksDenovoScore" value="0.6011657"/>
+          <search_score name="positional_conf" value="0.11,0.21,0.61,0.89,0.87,0.95,0.96,0.75,0.66,0.40,0.12"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13573" end_scan="13573" precursor_neutral_mass="1656.7902" assumed_charge="2" index="64138">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EEFSSGSAGLNPAVHR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1656.7856" massdiff="2.7">
+          <search_score name="PeaksDenovoScore" value="0.59913605"/>
+          <search_score name="positional_conf" value="0.46,0.47,0.23,0.85,0.95,0.86,0.90,0.85,0.54,0.78,0.53,0.25,0.32,0.36,0.48,0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24552" end_scan="24552" precursor_neutral_mass="1295.6364" assumed_charge="3" index="67824">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTQSAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6479" massdiff="-9.0">
+          <search_score name="PeaksDenovoScore" value="0.5989947"/>
+          <search_score name="positional_conf" value="0.47,0.74,0.65,0.64,0.93,0.95,0.87,0.31,0.43,0.32,0.19"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12343" end_scan="12343" precursor_neutral_mass="1295.6788" assumed_charge="3" index="64017">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HMFPHLTAKSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.6">
+          <search_score name="PeaksDenovoScore" value="0.59759897"/>
+          <search_score name="positional_conf" value="0.57,0.52,0.86,0.85,0.94,0.95,0.83,0.21,0.29,0.34,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15403" end_scan="15403" precursor_neutral_mass="1449.6945" assumed_charge="2" index="64343">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CTWLLSGWSNVK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1449.7075" massdiff="-9.0">
+          <modification_info modified_peptide="C(+57.02)TWLLSGWSNVK">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.595578"/>
+          <search_score name="positional_conf" value="0.26,0.28,0.31,0.93,0.98,0.96,0.86,0.88,0.50,0.37,0.40,0.32"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15274" end_scan="15274" precursor_neutral_mass="760.3635" assumed_charge="2" index="64315">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NEHPHK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="760.3616" massdiff="2.5">
+          <search_score name="PeaksDenovoScore" value="0.59472626"/>
+          <search_score name="positional_conf" value="0.35,0.58,0.28,0.70,0.72,0.89"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14463" end_scan="14463" precursor_neutral_mass="926.4833" assumed_charge="2" index="64206">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NPWVHFK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="926.4763" massdiff="7.6">
+          <search_score name="PeaksDenovoScore" value="0.5938668"/>
+          <search_score name="positional_conf" value="0.36,0.50,0.56,0.42,0.81,0.68,0.74"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12515" end_scan="12515" precursor_neutral_mass="1295.6788" assumed_charge="3" index="64032">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.6">
+          <search_score name="PeaksDenovoScore" value="0.5923883"/>
+          <search_score name="positional_conf" value="0.31,0.67,0.85,0.84,0.95,0.95,0.87,0.19,0.29,0.36,0.12"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="6378" end_scan="6378" precursor_neutral_mass="879.4443" assumed_charge="2" index="62471">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LQVVMMK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="879.4558" massdiff="-13.1">
+          <modification_info modified_peptide="LQVVM(+15.99)M(+15.99)K">
+            <mod_aminoacid_mass position="5" mass="147.03542"/>
+            <mod_aminoacid_mass position="6" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.591049"/>
+          <search_score name="positional_conf" value="0.89,0.80,0.40,0.53,0.45,0.48,0.51"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16806" end_scan="16806" precursor_neutral_mass="2099.0051" assumed_charge="2" index="64771">
+      <search_result>
+        <search_hit hit_rank="1" peptide="WKYWFNVWSDLSVQNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2099.0264" massdiff="-10.1">
+          <search_score name="PeaksDenovoScore" value="0.590644"/>
+          <search_score name="positional_conf" value="0.15,0.16,0.38,0.14,0.14,0.14,0.63,0.78,0.89,0.90,0.97,0.91,0.90,0.89,0.58,0.76"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18318" end_scan="18318" precursor_neutral_mass="2113.0215" assumed_charge="2" index="65485">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MEMRAKKMWSDLSVQNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2113.0117" massdiff="4.7">
+          <modification_info modified_peptide="M(+15.99)EM(+15.99)RAKKMWSDLSVQNK">
+            <mod_aminoacid_mass position="1" mass="147.03542"/>
+            <mod_aminoacid_mass position="3" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5903951"/>
+          <search_score name="positional_conf" value="0.15,0.40,0.16,0.12,0.16,0.19,0.26,0.83,0.79,0.90,0.91,0.94,0.90,0.92,0.89,0.59,0.79"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18083" end_scan="18083" precursor_neutral_mass="2170.0388" assumed_charge="2" index="65369">
+      <search_result>
+        <search_hit hit_rank="1" peptide="WKWFRCFNGSNLSVQNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2170.0530" massdiff="-6.5">
+          <modification_info modified_peptide="WKWFRC(+57.02)FNGSNLSVQNK">
+            <mod_aminoacid_mass position="6" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.589459"/>
+          <search_score name="positional_conf" value="0.20,0.18,0.35,0.15,0.11,0.36,0.46,0.50,0.76,0.94,0.90,0.97,0.86,0.86,0.88,0.59,0.79"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8831" end_scan="8831" precursor_neutral_mass="919.4786" assumed_charge="2" index="63201">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AWFLMPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="919.4738" massdiff="5.2">
+          <search_score name="PeaksDenovoScore" value="0.58739656"/>
+          <search_score name="positional_conf" value="0.41,0.45,0.92,0.92,0.67,0.41,0.27"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24810" end_scan="24810" precursor_neutral_mass="1295.6792" assumed_charge="3" index="67906">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.3">
+          <search_score name="PeaksDenovoScore" value="0.5859971"/>
+          <search_score name="positional_conf" value="0.32,0.34,0.87,0.85,0.95,0.96,0.90,0.47,0.28,0.26,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20027" end_scan="20027" precursor_neutral_mass="1295.6792" assumed_charge="3" index="66104">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HMLMHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="12.5">
+          <search_score name="PeaksDenovoScore" value="0.5851857"/>
+          <search_score name="positional_conf" value="0.41,0.34,0.48,0.47,0.89,0.93,0.82,0.84,0.50,0.09"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17162" end_scan="17162" precursor_neutral_mass="972.5718" assumed_charge="2" index="64960">
+      <search_result>
+        <search_hit hit_rank="1" peptide="YVHSKVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="972.5756" massdiff="-4.0">
+          <search_score name="PeaksDenovoScore" value="0.5850814"/>
+          <search_score name="positional_conf" value="0.58,0.64,0.92,0.87,0.40,0.34,0.57,0.28"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14174" end_scan="14174" precursor_neutral_mass="1295.6788" assumed_charge="3" index="64185">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.2">
+          <search_score name="PeaksDenovoScore" value="0.5844155"/>
+          <search_score name="positional_conf" value="0.45,0.78,0.64,0.64,0.94,0.96,0.87,0.22,0.31,0.34,0.18"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14972" end_scan="14972" precursor_neutral_mass="762.4189" assumed_charge="2" index="64264">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LHSHAAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="762.4136" massdiff="6.9">
+          <search_score name="PeaksDenovoScore" value="0.583147"/>
+          <search_score name="positional_conf" value="0.66,0.62,0.71,0.64,0.43,0.42,0.51"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21586" end_scan="21586" precursor_neutral_mass="1300.6621" assumed_charge="2" index="66802">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHNEAVTNKKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1300.6445" massdiff="13.5">
+          <modification_info modified_peptide="MHN(+.98)EAVTN(+.98)KKK">
+            <mod_aminoacid_mass position="3" mass="115.02695"/>
+            <mod_aminoacid_mass position="8" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.58291155"/>
+          <search_score name="positional_conf" value="0.93,0.94,0.90,0.92,0.31,0.31,0.65,0.25,0.41,0.41,0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13512" end_scan="13512" precursor_neutral_mass="750.3450" assumed_charge="2" index="64133">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DPYTQK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="750.3548" massdiff="-13.0">
+          <search_score name="PeaksDenovoScore" value="0.5793696"/>
+          <search_score name="positional_conf" value="0.63,0.52,0.87,0.72,0.40,0.27"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8668" end_scan="8668" precursor_neutral_mass="1412.6599" assumed_charge="2" index="63137">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QNQYKTDMELK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1412.6606" massdiff="-0.5">
+          <modification_info modified_peptide="QNQYKTDM(+15.99)ELK">
+            <mod_aminoacid_mass position="8" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.576932"/>
+          <search_score name="positional_conf" value="0.29,0.52,0.59,0.88,0.83,0.67,0.23,0.23,0.63,0.59,0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14815" end_scan="14815" precursor_neutral_mass="1295.6780" assumed_charge="3" index="64250">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-2.3">
+          <search_score name="PeaksDenovoScore" value="0.5750482"/>
+          <search_score name="positional_conf" value="0.24,0.58,0.67,0.62,0.94,0.96,0.90,0.42,0.48,0.27,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="22687" end_scan="22687" precursor_neutral_mass="1295.6788" assumed_charge="3" index="67199">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GPNFPHLTNTAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6621" massdiff="12.9">
+          <search_score name="PeaksDenovoScore" value="0.57501453"/>
+          <search_score name="positional_conf" value="0.09,0.18,0.57,0.88,0.86,0.95,0.96,0.90,0.70,0.28,0.28,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="27053" end_scan="27053" precursor_neutral_mass="824.5193" assumed_charge="2" index="68562">
+      <search_result>
+        <search_hit hit_rank="1" peptide="KKRTHR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="824.5093" massdiff="12.2">
+          <search_score name="PeaksDenovoScore" value="0.5740002"/>
+          <search_score name="positional_conf" value="0.37,0.77,0.64,0.59,0.48,0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16357" end_scan="16357" precursor_neutral_mass="1925.8657" assumed_charge="2" index="64566">
+      <search_result>
+        <search_hit hit_rank="1" peptide="KMGCASECLLSGWKGSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1925.8909" massdiff="-13.1">
+          <modification_info modified_peptide="KMGC(+57.02)ASEC(+57.02)LLSGWKGSR">
+            <mod_aminoacid_mass position="4" mass="160.03065"/>
+            <mod_aminoacid_mass position="8" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.57358927"/>
+          <search_score name="positional_conf" value="0.21,0.23,0.10,0.19,0.62,0.66,0.96,0.94,0.95,0.98,0.96,0.90,0.84,0.47,0.16,0.31,0.16"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21779" end_scan="21779" precursor_neutral_mass="1295.6788" assumed_charge="3" index="66874">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKTGK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.3">
+          <search_score name="PeaksDenovoScore" value="0.5724089"/>
+          <search_score name="positional_conf" value="0.38,0.40,0.61,0.59,0.97,0.98,0.85,0.45,0.64,0.19,0.16"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="9592" end_scan="9592" precursor_neutral_mass="900.4098" assumed_charge="2" index="63423">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GFSGTAMSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="900.4011" massdiff="9.6">
+          <modification_info modified_peptide="GFSGTAM(+15.99)SK">
+            <mod_aminoacid_mass position="7" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5718975"/>
+          <search_score name="positional_conf" value="0.31,0.68,0.89,0.79,0.74,0.26,0.26,0.65,0.48"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="3602" end_scan="3602" precursor_neutral_mass="758.4299" assumed_charge="2" index="61777">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MLAPALK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="758.4360" massdiff="-8.2">
+          <modification_info modified_peptide="M(+15.99)LAPALK">
+            <mod_aminoacid_mass position="1" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.56926745"/>
+          <search_score name="positional_conf" value="0.68,0.74,0.45,0.21,0.33,0.92,0.59"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24565" end_scan="24565" precursor_neutral_mass="1295.6785" assumed_charge="3" index="67826">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.5">
+          <search_score name="PeaksDenovoScore" value="0.5669153"/>
+          <search_score name="positional_conf" value="0.29,0.64,0.63,0.63,0.93,0.96,0.90,0.33,0.34,0.32,0.17"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16951" end_scan="16951" precursor_neutral_mass="871.5356" assumed_charge="2" index="64842">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LPLLSTTK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="871.5378" massdiff="-2.5">
+          <search_score name="PeaksDenovoScore" value="0.5656228"/>
+          <search_score name="positional_conf" value="0.24,0.17,0.46,0.52,0.79,0.80,0.80,0.67"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21285" end_scan="21285" precursor_neutral_mass="1295.6783" assumed_charge="3" index="66672">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="11.8">
+          <search_score name="PeaksDenovoScore" value="0.56438756"/>
+          <search_score name="positional_conf" value="0.14,0.41,0.47,0.50,0.90,0.95,0.80,0.83,0.47,0.09"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17076" end_scan="17076" precursor_neutral_mass="1218.5214" assumed_charge="2" index="64913">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EHNMPMGMLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1218.5195" massdiff="1.5">
+          <modification_info modified_peptide="EHNMPM(+15.99)GM(+15.99)LK">
+            <mod_aminoacid_mass position="6" mass="147.03542"/>
+            <mod_aminoacid_mass position="8" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5636041"/>
+          <search_score name="positional_conf" value="0.56,0.29,0.56,0.24,0.23,0.52,0.57,0.85,0.90,0.82"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24345" end_scan="24345" precursor_neutral_mass="1295.6788" assumed_charge="3" index="67754">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.2">
+          <search_score name="PeaksDenovoScore" value="0.56277645"/>
+          <search_score name="positional_conf" value="0.26,0.62,0.62,0.62,0.93,0.96,0.85,0.46,0.33,0.31,0.16"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13808" end_scan="13808" precursor_neutral_mass="923.4504" assumed_charge="2" index="64150">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TYNDAVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="923.4600" massdiff="-10.5">
+          <modification_info modified_peptide="TYN(+.98)DAVLK">
+            <mod_aminoacid_mass position="3" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5620714"/>
+          <search_score name="positional_conf" value="0.36,0.67,0.40,0.42,0.73,0.77,0.85,0.21"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18382" end_scan="18382" precursor_neutral_mass="1295.6793" assumed_charge="3" index="65514">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GPNFPHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6775" massdiff="1.4">
+          <search_score name="PeaksDenovoScore" value="0.5619143"/>
+          <search_score name="positional_conf" value="0.07,0.16,0.52,0.86,0.85,0.94,0.95,0.71,0.61,0.34,0.09"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16993" end_scan="16993" precursor_neutral_mass="1910.8564" assumed_charge="2" index="64868">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MKGQASECLLSNEGAATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1910.8713" massdiff="-7.8">
+          <modification_info modified_peptide="M(+15.99)KGQASEC(+57.02)LLSN(+.98)EGAATK">
+            <mod_aminoacid_mass position="1" mass="147.03542"/>
+            <mod_aminoacid_mass position="8" mass="160.03065"/>
+            <mod_aminoacid_mass position="12" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.56073505"/>
+          <search_score name="positional_conf" value="0.16,0.17,0.07,0.15,0.15,0.17,0.92,0.88,0.91,0.95,0.78,0.26,0.56,0.56,0.84,0.89,0.74,0.79"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24155" end_scan="24155" precursor_neutral_mass="1295.6771" assumed_charge="3" index="67711">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-5.5">
+          <search_score name="PeaksDenovoScore" value="0.55928946"/>
+          <search_score name="positional_conf" value="0.22,0.54,0.54,0.54,0.91,0.95,0.85,0.38,0.27,0.51,0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19531" end_scan="19531" precursor_neutral_mass="1295.6787" assumed_charge="3" index="65897">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHPFHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.7">
+          <search_score name="PeaksDenovoScore" value="0.5590435"/>
+          <search_score name="positional_conf" value="0.24,0.56,0.43,0.61,0.92,0.97,0.90,0.50,0.51,0.29,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13432" end_scan="13432" precursor_neutral_mass="910.3371" assumed_charge="2" index="64129">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HMSDYDK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="910.3491" massdiff="-13.2">
+          <modification_info modified_peptide="HM(+15.99)SDYDK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.55857813"/>
+          <search_score name="positional_conf" value="0.38,0.37,0.34,0.38,0.73,0.84,0.80"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14065" end_scan="14065" precursor_neutral_mass="1295.6788" assumed_charge="3" index="64179">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHMLHLTAKSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.3">
+          <search_score name="PeaksDenovoScore" value="0.55757743"/>
+          <search_score name="positional_conf" value="0.22,0.37,0.32,0.45,0.83,0.93,0.89,0.67,0.75,0.48,0.10"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="25803" end_scan="25803" precursor_neutral_mass="803.4275" assumed_charge="2" index="68233">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SNRATQK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="803.4249" massdiff="3.2">
+          <search_score name="PeaksDenovoScore" value="0.5563502"/>
+          <search_score name="positional_conf" value="0.34,0.35,0.45,0.88,0.53,0.51,0.79"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15446" end_scan="15446" precursor_neutral_mass="1295.6798" assumed_charge="2" index="64348">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHNSASRLKPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6880" massdiff="-6.3">
+          <search_score name="PeaksDenovoScore" value="0.5548824"/>
+          <search_score name="positional_conf" value="0.87,0.86,0.53,0.27,0.28,0.71,0.59,0.68,0.58,0.35,0.25"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16759" end_scan="16759" precursor_neutral_mass="896.5232" assumed_charge="2" index="64758">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TAFKFKR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="896.5232" massdiff="0.0">
+          <search_score name="PeaksDenovoScore" value="0.5548509"/>
+          <search_score name="positional_conf" value="0.41,0.45,0.77,0.83,0.41,0.37,0.58"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16670" end_scan="16670" precursor_neutral_mass="1909.8665" assumed_charge="2" index="64718">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TACGAGVMCLLSGWQATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1909.8848" massdiff="-9.6">
+          <modification_info modified_peptide="TAC(+57.02)GAGVMC(+57.02)LLSGWQATK">
+            <mod_aminoacid_mass position="3" mass="160.03065"/>
+            <mod_aminoacid_mass position="9" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5545163"/>
+          <search_score name="positional_conf" value="0.18,0.19,0.19,0.33,0.95,0.85,0.33,0.35,0.81,0.93,0.95,0.88,0.10,0.21,0.58,0.80,0.62,0.57"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12507" end_scan="12507" precursor_neutral_mass="897.5298" assumed_charge="2" index="64031">
+      <search_result>
+        <search_hit hit_rank="1" peptide="KAEVAPKR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="897.5396" massdiff="-10.8">
+          <search_score name="PeaksDenovoScore" value="0.5535952"/>
+          <search_score name="positional_conf" value="0.83,0.82,0.85,0.52,0.41,0.19,0.42,0.31"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19670" end_scan="19670" precursor_neutral_mass="1295.6796" assumed_charge="3" index="65952">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HMFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.0">
+          <search_score name="PeaksDenovoScore" value="0.55266523"/>
+          <search_score name="positional_conf" value="0.31,0.33,0.86,0.85,0.95,0.95,0.85,0.24,0.27,0.26,0.13"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16461" end_scan="16461" precursor_neutral_mass="925.4816" assumed_charge="2" index="64612">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EMHPGVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4691" massdiff="13.5">
+          <modification_info modified_peptide="EM(+15.99)HPGVLK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5522297"/>
+          <search_score name="positional_conf" value="0.68,0.47,0.96,0.66,0.32,0.29,0.57,0.38"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21861" end_scan="21861" precursor_neutral_mass="1295.6792" assumed_charge="3" index="66911">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTKASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6809" massdiff="-1.3">
+          <search_score name="PeaksDenovoScore" value="0.5516233"/>
+          <search_score name="positional_conf" value="0.29,0.61,0.54,0.47,0.92,0.96,0.90,0.42,0.37,0.32,0.15"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13660" end_scan="13660" precursor_neutral_mass="1149.5679" assumed_charge="2" index="64144">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CTWKSVDVR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1149.5601" massdiff="6.8">
+          <modification_info modified_peptide="C(+57.02)TWKSVDVR">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5512705"/>
+          <search_score name="positional_conf" value="0.41,0.45,0.19,0.21,0.83,0.84,0.79,0.67,0.47"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24244" end_scan="24244" precursor_neutral_mass="1295.6777" assumed_charge="3" index="67726">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HMMLHLHLHK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6743" massdiff="2.6">
+          <search_score name="PeaksDenovoScore" value="0.55068505"/>
+          <search_score name="positional_conf" value="0.24,0.19,0.36,0.51,0.86,0.92,0.54,0.74,0.43,0.61"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="8427" end_scan="8427" precursor_neutral_mass="1024.4666" assumed_charge="2" index="63032">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ACLAPHGDGK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1024.4761" massdiff="-9.3">
+          <modification_info modified_peptide="AC(+57.02)LAPHGDGK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5492091"/>
+          <search_score name="positional_conf" value="0.35,0.38,0.73,0.90,0.84,0.48,0.20,0.58,0.38,0.56"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19676" end_scan="19676" precursor_neutral_mass="1296.7870" assumed_charge="2" index="65955">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMKRLKLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1296.7886" massdiff="-1.2">
+          <search_score name="PeaksDenovoScore" value="0.54821837"/>
+          <search_score name="positional_conf" value="0.84,0.82,0.46,0.33,0.56,0.42,0.41,0.59,0.53,0.41"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15102" end_scan="15102" precursor_neutral_mass="899.4503" assumed_charge="2" index="64289">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GYLYEQK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="899.4388" massdiff="12.7">
+          <search_score name="PeaksDenovoScore" value="0.5480623"/>
+          <search_score name="positional_conf" value="0.19,0.37,0.59,0.35,0.64,0.77,0.85"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="24029" end_scan="24029" precursor_neutral_mass="1295.6357" assumed_charge="3" index="67671">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HMFPHLTNGSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6194" massdiff="12.6">
+          <search_score name="PeaksDenovoScore" value="0.5461067"/>
+          <search_score name="positional_conf" value="0.45,0.42,0.61,0.53,0.93,0.96,0.90,0.47,0.18,0.29,0.15"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16305" end_scan="16305" precursor_neutral_mass="1512.7306" assumed_charge="2" index="64544">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DFESNAAVPWHLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1512.7361" massdiff="-3.6">
+          <search_score name="PeaksDenovoScore" value="0.5444362"/>
+          <search_score name="positional_conf" value="0.16,0.16,0.36,0.79,0.82,0.92,0.76,0.40,0.13,0.31,0.70,0.75,0.71"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16492" end_scan="16492" precursor_neutral_mass="925.4819" assumed_charge="2" index="64629">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EMHPGVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4691" massdiff="13.8">
+          <modification_info modified_peptide="EM(+15.99)HPGVLK">
+            <mod_aminoacid_mass position="2" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.54346836"/>
+          <search_score name="positional_conf" value="0.66,0.46,0.95,0.66,0.31,0.28,0.57,0.37"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15129" end_scan="15129" precursor_neutral_mass="882.4233" assumed_charge="2" index="64293">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DPNNPAQK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="882.4195" massdiff="4.3">
+          <search_score name="PeaksDenovoScore" value="0.5412358"/>
+          <search_score name="positional_conf" value="0.76,0.67,0.65,0.57,0.38,0.42,0.51,0.27"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12642" end_scan="12642" precursor_neutral_mass="925.4842" assumed_charge="2" index="64053">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FKYGAQGR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4770" massdiff="7.8">
+          <search_score name="PeaksDenovoScore" value="0.5383763"/>
+          <search_score name="positional_conf" value="0.45,0.46,0.66,0.35,0.75,0.57,0.43,0.56"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16583" end_scan="16583" precursor_neutral_mass="2156.0220" assumed_charge="2" index="64668">
+      <search_result>
+        <search_hit hit_rank="1" peptide="WWWERHLVAACSSVQNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2156.0374" massdiff="-7.1">
+          <modification_info modified_peptide="WWWERHLVAAC(+57.02)SSVQNK">
+            <mod_aminoacid_mass position="11" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5347733"/>
+          <search_score name="positional_conf" value="0.21,0.19,0.35,0.63,0.09,0.13,0.86,0.91,0.88,0.58,0.20,0.34,0.74,0.75,0.80,0.54,0.75"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="27008" end_scan="27008" precursor_neutral_mass="1295.6790" assumed_charge="3" index="68545">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHMLHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="12.3">
+          <search_score name="PeaksDenovoScore" value="0.5331329"/>
+          <search_score name="positional_conf" value="0.29,0.50,0.41,0.56,0.95,0.97,0.61,0.57,0.31,0.09"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="2849" end_scan="2849" precursor_neutral_mass="1296.5940" assumed_charge="3" index="61738">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SEDKGMLTDSSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1296.5867" massdiff="5.6">
+          <search_score name="PeaksDenovoScore" value="0.5324841"/>
+          <search_score name="positional_conf" value="0.84,0.94,0.41,0.21,0.10,0.19,0.33,0.78,0.74,0.62,0.63,0.47"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17332" end_scan="17332" precursor_neutral_mass="1058.5299" assumed_charge="2" index="65038">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NPASGWGDKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1058.5144" massdiff="14.6">
+          <search_score name="PeaksDenovoScore" value="0.5321303"/>
+          <search_score name="positional_conf" value="0.24,0.18,0.27,0.82,0.76,0.90,0.56,0.64,0.42,0.43"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14673" end_scan="14673" precursor_neutral_mass="1470.6841" assumed_charge="2" index="64236">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CSMLALVATCSSR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1470.6628" massdiff="14.4">
+          <modification_info modified_peptide="C(+57.02)SM(+15.99)LALVATC(+57.02)SSR">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="3" mass="147.03542"/>
+            <mod_aminoacid_mass position="10" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5306378"/>
+          <search_score name="positional_conf" value="0.24,0.29,0.31,0.76,0.82,0.89,0.78,0.46,0.25,0.40,0.57,0.61,0.41"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="13581" end_scan="13581" precursor_neutral_mass="1149.5687" assumed_charge="2" index="64140">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CTSQVSVELK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1149.5701" massdiff="-1.2">
+          <modification_info modified_peptide="C(+57.02)TSQVSVELK">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5291843"/>
+          <search_score name="positional_conf" value="0.43,0.47,0.34,0.20,0.29,0.76,0.73,0.83,0.63,0.52"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15598" end_scan="15598" precursor_neutral_mass="1671.9133" assumed_charge="3" index="64371">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HSYENKKARAKVNK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1671.9167" massdiff="-2.1">
+          <search_score name="PeaksDenovoScore" value="0.52748424"/>
+          <search_score name="positional_conf" value="0.47,0.50,0.95,0.97,0.80,0.83,0.34,0.17,0.12,0.24,0.25,0.45,0.64,0.53"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20446" end_scan="20446" precursor_neutral_mass="1295.6794" assumed_charge="3" index="66321">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHMLHLYVPR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6631" massdiff="12.6">
+          <search_score name="PeaksDenovoScore" value="0.5272007"/>
+          <search_score name="positional_conf" value="0.29,0.53,0.41,0.57,0.89,0.94,0.61,0.56,0.29,0.09"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15449" end_scan="15449" precursor_neutral_mass="762.4192" assumed_charge="2" index="64349">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LHSAHAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="762.4136" massdiff="7.3">
+          <search_score name="PeaksDenovoScore" value="0.5266944"/>
+          <search_score name="positional_conf" value="0.73,0.67,0.73,0.62,0.37,0.23,0.28"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15216" end_scan="15216" precursor_neutral_mass="1885.8296" assumed_charge="3" index="64306">
+      <search_result>
+        <search_hit hit_rank="1" peptide="WCNMRCLLSMEAATK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1885.8308" massdiff="-0.7">
+          <modification_info modified_peptide="WC(+57.02)NMRC(+57.02)LLSM(+15.99)EAATK">
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="6" mass="160.03065"/>
+            <mod_aminoacid_mass position="10" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.52626777"/>
+          <search_score name="positional_conf" value="0.14,0.13,0.11,0.31,0.42,0.83,0.97,0.93,0.79,0.16,0.54,0.62,0.72,0.59,0.50"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="18142" end_scan="18142" precursor_neutral_mass="1126.6338" assumed_charge="2" index="65384">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GYTKLFLASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1126.6387" massdiff="-4.4">
+          <search_score name="PeaksDenovoScore" value="0.5257481"/>
+          <search_score name="positional_conf" value="0.15,0.29,0.66,0.61,0.65,0.50,0.54,0.71,0.80,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="12725" end_scan="12725" precursor_neutral_mass="1764.7318" assumed_charge="2" index="64061">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CCCNGGGSFGAVFMLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1764.7092" massdiff="12.8">
+          <modification_info modified_peptide="C(+57.02)C(+57.02)C(+57.02)N(+.98)GGGSFGAVFMLK">
+            <mod_aminoacid_mass position="1" mass="160.03065"/>
+            <mod_aminoacid_mass position="2" mass="160.03065"/>
+            <mod_aminoacid_mass position="3" mass="160.03065"/>
+            <mod_aminoacid_mass position="4" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5208677"/>
+          <search_score name="positional_conf" value="0.18,0.66,0.50,0.68,0.51,0.64,0.75,0.91,0.91,0.38,0.65,0.27,0.26,0.24,0.38,0.24"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="26756" end_scan="26756" precursor_neutral_mass="1295.6796" assumed_charge="3" index="68424">
+      <search_result>
+        <search_hit hit_rank="1" peptide="HMMLHLHLHK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6743" massdiff="4.1">
+          <search_score name="PeaksDenovoScore" value="0.5198113"/>
+          <search_score name="positional_conf" value="0.36,0.27,0.40,0.53,0.84,0.93,0.52,0.42,0.36,0.46"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="11035" end_scan="11035" precursor_neutral_mass="879.4500" assumed_charge="2" index="63792">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VLQVMMK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="879.4558" massdiff="-6.7">
+          <modification_info modified_peptide="VLQVM(+15.99)M(+15.99)K">
+            <mod_aminoacid_mass position="5" mass="147.03542"/>
+            <mod_aminoacid_mass position="6" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5191117"/>
+          <search_score name="positional_conf" value="0.72,0.64,0.51,0.24,0.45,0.50,0.51"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15776" end_scan="15776" precursor_neutral_mass="925.4831" assumed_charge="2" index="64416">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EFHPGLAR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4770" massdiff="6.6">
+          <search_score name="PeaksDenovoScore" value="0.5190595"/>
+          <search_score name="positional_conf" value="0.72,0.50,0.86,0.52,0.24,0.50,0.52,0.22"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20645" end_scan="20645" precursor_neutral_mass="926.4851" assumed_charge="2" index="66400">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TYAKMLGK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="926.4895" massdiff="-4.8">
+          <modification_info modified_peptide="TYAKM(+15.99)LGK">
+            <mod_aminoacid_mass position="5" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5188273"/>
+          <search_score name="positional_conf" value="0.35,0.34,0.28,0.29,0.83,0.83,0.53,0.62"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="19645" end_scan="19645" precursor_neutral_mass="1061.6235" assumed_charge="2" index="65948">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LVRYLPSSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1061.6233" massdiff="0.2">
+          <search_score name="PeaksDenovoScore" value="0.50985044"/>
+          <search_score name="positional_conf" value="0.34,0.26,0.43,0.26,0.52,0.35,0.65,0.83,0.85"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="17313" end_scan="17313" precursor_neutral_mass="2210.0994" assumed_charge="3" index="65035">
+      <search_result>
+        <search_hit hit_rank="1" peptide="WNHLLDVLEGRSQMLNAAK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="2210.1265" massdiff="-12.2">
+          <modification_info modified_peptide="WNHLLDVLEGRSQM(+15.99)LNAAK">
+            <mod_aminoacid_mass position="14" mass="147.03542"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.50883675"/>
+          <search_score name="positional_conf" value="0.16,0.18,0.16,0.24,0.29,0.22,0.21,0.28,0.93,0.83,0.29,0.46,0.83,0.89,0.91,0.81,0.86,0.56,0.37"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="15817" end_scan="15817" precursor_neutral_mass="805.4659" assumed_charge="2" index="64425">
+      <search_result>
+        <search_hit hit_rank="1" peptide="STTLLGSK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="805.4545" massdiff="14.1">
+          <search_score name="PeaksDenovoScore" value="0.50772065"/>
+          <search_score name="positional_conf" value="0.21,0.23,0.32,0.46,0.80,0.51,0.76,0.71"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="26743" end_scan="26743" precursor_neutral_mass="1341.6305" assumed_charge="2" index="68419">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LGMNNNHTVKGR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1341.6460" massdiff="-11.6">
+          <modification_info modified_peptide="LGMN(+.98)NN(+.98)HTVKGR">
+            <mod_aminoacid_mass position="4" mass="115.02695"/>
+            <mod_aminoacid_mass position="6" mass="115.02695"/>
+          </modification_info>
+          <search_score name="PeaksDenovoScore" value="0.5074515"/>
+          <search_score name="positional_conf" value="0.50,0.26,0.59,0.45,0.41,0.20,0.22,0.75,0.63,0.58,0.67,0.73"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="16580" end_scan="16580" precursor_neutral_mass="972.5726" assumed_charge="2" index="64667">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FLLLGPASR" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="972.5756" massdiff="-3.2">
+          <search_score name="PeaksDenovoScore" value="0.50662565"/>
+          <search_score name="positional_conf" value="0.21,0.32,0.48,0.61,0.53,0.37,0.57,0.75,0.63"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23588" end_scan="23588" precursor_neutral_mass="1295.6364" assumed_charge="3" index="67528">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTSAQK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6479" massdiff="-9.0">
+          <search_score name="PeaksDenovoScore" value="0.5039244"/>
+          <search_score name="positional_conf" value="0.22,0.54,0.53,0.53,0.93,0.95,0.86,0.21,0.34,0.20,0.12"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="23611" end_scan="23611" precursor_neutral_mass="1295.6790" assumed_charge="3" index="67530">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHLMHLTSAKK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6843" massdiff="-4.1">
+          <search_score name="PeaksDenovoScore" value="0.50351596"/>
+          <search_score name="positional_conf" value="0.22,0.56,0.53,0.54,0.92,0.95,0.87,0.24,0.25,0.24,0.11"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="21345" end_scan="21345" precursor_neutral_mass="926.5673" assumed_charge="2" index="66698">
+      <search_result>
+        <search_hit hit_rank="1" peptide="APPVVFLGK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="926.5589" massdiff="9.1">
+          <search_score name="PeaksDenovoScore" value="0.50342166"/>
+          <search_score name="positional_conf" value="0.19,0.32,0.32,0.46,0.71,0.66,0.81,0.68,0.29"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="14347" end_scan="14347" precursor_neutral_mass="925.4817" assumed_charge="2" index="64196">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EFGYAVLK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="925.4909" massdiff="-10.0">
+          <search_score name="PeaksDenovoScore" value="0.5030184"/>
+          <search_score name="positional_conf" value="0.56,0.31,0.16,0.29,0.74,0.81,0.83,0.25"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="20210411_Trocas7_666_Bay303_DDA_120min_1.raw" start_scan="20771" end_scan="20771" precursor_neutral_mass="1295.6356" assumed_charge="3" index="66443">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MHFPHLTQASK" protein="not_applicable" num_tot_proteins="0" calc_neutral_pep_mass="1295.6445" massdiff="-6.9">
+          <search_score name="PeaksDenovoScore" value="0.5018664"/>
+          <search_score name="positional_conf" value="0.23,0.51,0.51,0.45,0.92,0.94,0.76,0.41,0.27,0.28,0.14"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+  </msms_run_summary>
+</msms_pipeline_analysis>
