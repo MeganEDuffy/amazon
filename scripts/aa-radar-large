@@ -1,0 +1,161 @@
+library(fmsb)
+
+# Macapa North amino acid log2 fold change, large size fraction
+
+mn <- data.frame(Ala=c(4, -4, 0.232599),
+                 Val=c(4, -4, -0.002512),
+                 Leu=c(4, -4, 0.019947),
+                 Pro=c(4, -4, -0.052799),
+                 Ser=c(4, -4, 0.301091),
+                 Thr=c(4, -4, -0.040600),
+                 Arg=c(4, -4, 0.039684),
+                 Gly=c(4, -4, -0.826797),
+                 Cys=c(4, -4, -1.239758),
+                 Asp=c(4, -4, -0.218576),
+                 Glu=c(4, -4, -1.297608),
+                 Phe=c(4, -4, -1.188102),
+                 His=c(4, -4, -2.590374),
+                 Lys=c(4, -4, -1.029005),
+                 Met=c(4, -4, -1.832698),
+                 Asn=c(4, -4, 0.506601),
+                 Trp=c(4, -4, 0.116875),
+                 Tyr=c(4, -4, -2.112181),
+                 Gln=c(4, -4, 0.657682))
+
+                                                            
+
+# Baylique amino acid log2 fold change, small size fraction
+
+by <- data.frame(Ala=c(4, -4, 0.012080),
+                 Val=c(4, -4, 0.152653),
+                 Leu=c(4, -4, -0.088861),
+                 Pro=c(4, -4, 0.057256),
+                 Ser=c(4, -4, -0.313176),
+                 Thr=c(4, -4, 0.109952),
+                 Arg=c(4, -4, 0.011873),
+                 Gly=c(4, -4, 0.909008),
+                 Cys=c(4, -4, 1.554438),
+                 Asp=c(4, -4, 1.001583),
+                 Glu=c(4, -4, -0.446047),
+                 Phe=c(4, -4, 0.336225),
+                 His=c(4, -4, 1.097807),
+                 Lys=c(4, -4, 0.764494),
+                 Met=c(4, -4, 1.482127),
+                 Asn=c(4, -4, -0.753948),
+                 Trp=c(4, -4, -0.508023),
+                 Tyr=c(4, -4, 0.753861),
+                 Gln=c(4, -4, -0.527634))
+
+                                                            
+
+# Macapa South amino acid log2 fold change, small size fraction
+
+ms <- data.frame(Ala=c(4, -4, -0.028456),
+                 Val=c(4, -4, 0.041926),
+                 Leu=c(4, -4, -0.117741),
+                 Pro=c(4, -4, 0.022666),
+                 Ser=c(4, -4, 0.243460),
+                 Thr=c(4, -4, 0.155370),
+                 Arg=c(4, -4, 0.030067),
+                 Gly=c(4, -4, -0.757421),
+                 Cys=c(4, -4, -0.509048),
+                 Asp=c(4, -4, -1.017198),
+                 Glu=c(4, -4, -1.915958),
+                 Phe=c(4, -4, -0.165415),
+                 His=c(4, -4, -0.302278),
+                 Lys=c(4, -4, -0.871102),
+                 Met=c(4, -4, -0.350652),
+                 Asn=c(4, -4, 0.210912),
+                 Trp=c(4, -4, -1.157872),
+                 Tyr=c(4, -4, -0.235219),
+                 Gln=c(4, -4, -2.361545))
+ 	 	 	 	 	 	 	 	 	 	                                                           	 	 	 	 	 	 	
+ 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+# Chaves amino acid log2 fold change, small size fraction
+
+cv <- data.frame(Ala=c(4, -4, 0.185215),
+                 Val=c(4, -4, 0.062030),
+                 Leu=c(4, -4, 0.003639),
+                 Pro=c(4, -4, 0.059911),
+                 Ser=c(4, -4, 0.035403),
+                 Thr=c(4, -4, 0.088124),
+                 Arg=c(4, -4, 0.054337),
+                 Gly=c(4, -4, -1.033030),
+                 Cys=c(4, -4, 5.392537e-04),
+                 Asp=c(4, -4, -1.246489),
+                 Glu=c(4, -4, -1.901025),
+                 Phe=c(4, -4, -1.590765),
+                 His=c(4, -4, -1.286392),
+                 Lys=c(4, -4, -0.469791),
+                 Met=c(4, -4, -0.493077),
+                 Asn=c(4, -4, -0.715359),
+                 Trp=c(4, -4, -1.132104),
+                 Tyr=c(4, -4, -0.913793),
+                 Gln=c(4, -4, -1.682307))
+
+
+# Split into 4 plots
+op <- par(mar=c(1, 2, 2, 1),mfrow=c(2, 2))
+
+# Macapa North
+radarchart(mn,
+    axistype=1, 
+    pcol='blue',
+    pfcol = c("#99999980",NA),
+    plwd=3, 
+    cglcol='grey',
+    cglty=1,
+    axislabcol='black',
+    cglwd=1,
+    vlcex=1.1,
+    caxislabels = c(-4, -2, 0, 2,  4),
+    title='Macapa North'
+    )
+
+# Baylique
+radarchart(by,
+    axistype=1, 
+    pcol='blue',
+    pfcol = c("#99999980",NA),
+    plwd=3, 
+    cglcol='grey',
+    cglty=1,
+    axislabcol='black',
+    cglwd=1,
+    vlcex=1.1,
+    caxislabels = c(--4, -2, 0, 2,  4),
+    title='Baylique'
+    )
+
+# Macapa South
+radarchart(ms,
+    axistype=1, 
+    pcol='blue',
+    pfcol = c("#99999980",NA),
+    plwd=3, 
+    cglcol='grey',
+    cglty=1,
+    axislabcol='black',
+    cglwd=1,
+    vlcex=1.1,
+    caxislabels = c(-4, -2, 0, 2,  4),
+    title='Macapa South'
+    )
+
+# Chaves
+radarchart(cv,
+    axistype=1, 
+    pcol='blue',
+    pfcol = c("#99999980",NA),
+    plwd=3, 
+    cglcol='grey',
+    cglty=1,
+    axislabcol='black',
+    cglwd=1,
+    vlcex=1.1,
+    caxislabels = c(-4, -2, 0, 2,  4),
+    title='Chaves'
+    )
+
+
+par(op)
